@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main >
      
-     
+     <h1>hello dev haykel</h1>
     </main>
   )
 }
