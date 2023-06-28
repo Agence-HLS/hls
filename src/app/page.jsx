@@ -1,10 +1,15 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-export default function Home() {
+import Navbar from "@/components/layouts/navbar/";
+import NavbarMobile from "@/components/layouts/navbarMobile";
+import Home from "./home";
+
+export default function() {
   return (
-    <main >
-     
-     <h1>hello dev-lucas</h1>
-    </main>
-  )
+    <>
+      <Navbar />
+      <NavbarMobile />
+      <Home />
+    </>
+  );
 }
