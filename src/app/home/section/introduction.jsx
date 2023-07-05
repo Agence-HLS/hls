@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 const Introduction = () => {
   return (
     <>
-      <img src="./next.svg" alt="" />
+
     </>
   );
 };
