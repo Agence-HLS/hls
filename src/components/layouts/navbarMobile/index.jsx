@@ -11,11 +11,10 @@ import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
 import { faMoon } from "@fortawesome/free-regular-svg-icons";
 import { styles } from "./styles";
 import { bubble as Menu } from "react-burger-menu";
-import DarkMode from "./darkMode";
+import DarkMode from "../../tools/darkMode";
 import { useState } from "react";
 
 const HeaderMobile = () => {
-
   return (
     <header className="flex lg:hidden">
       <nav
@@ -30,9 +29,17 @@ const HeaderMobile = () => {
                 width={200}
                 height={200}
                 alt="Logo"
+                className="dark:hidden"
+              />
+              <Image
+                src="/black-logo.svg"
+                width={200}
+                height={200}
+                alt="Logo"
+                className="dark:flex hidden"
               />
             </div>
-            <Link href="/" className="pt-20">
+            <Link href="/" className="pt-6">
               <FontAwesomeIcon icon={faHouseUser} className="py-1 pr-2" />
               ACCUEIL
             </Link>
@@ -58,14 +65,30 @@ const HeaderMobile = () => {
           </Menu>
         </div>
         <div className="flex justify-center items-center">
-          <Image src="/white-logo.svg" width={100} height={100} alt="Logo" className="dark:hidden" />
-        
-          <Image src="black-logo.svg" width={100} height={100} alt="Logo" className="hidden dark:flex"/>
+          <Image
+            src="/white-logo.svg"
+            width={100}
+            height={100}
+            alt="Logo"
+            className="dark:hidden"
+          />
+
+          <Image
+            src="black-logo.svg"
+            width={100}
+            height={100}
+            alt="Logo"
+            className="hidden dark:flex"
+          />
         </div>
-      
+
         <div className="flex justify-center items-center">
           <button type="button" onClick={() => DarkMode()}>
-            <FontAwesomeIcon icon={faMoon} className="text-cyan-400 dark:text-purple-500" size="2xl" />
+            <FontAwesomeIcon
+              icon={faMoon}
+              className="text-cyan-400 dark:text-purple-500"
+              size="2xl"
+            />
           </button>
         </div>
       </nav>
