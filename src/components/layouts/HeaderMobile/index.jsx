@@ -19,7 +19,7 @@ const HeaderMobile = () => {
     <header className="flex lg:hidden">
       <nav
         className="w-full h-28 bg-gray-100
-       grid grid-cols-3 dark:bg-purple-100"
+       grid grid-cols-3 dark:bg-black"
       >
         <div>
           <Menu className="dark: text-purple-500" styles={styles}>
@@ -60,11 +60,11 @@ const HeaderMobile = () => {
               NOUS CONTACTER
             </Link>
             <div className="w-2/3 flex justify-center fixed bottom-0">
-              Copyright
+              Copyright Deep404 
             </div>
           </Menu>
         </div>
-        <div className="flex justify-center items-center">
+        <div className=" w-full flex justify-center items-center">
           <Image
             src="/white-logo.svg"
             width={100}
@@ -78,7 +78,7 @@ const HeaderMobile = () => {
             width={100}
             height={100}
             alt="Logo"
-            className="hidden dark:flex"
+            className=" hidden dark:flex"
           />
         </div>
 
@@ -86,7 +86,7 @@ const HeaderMobile = () => {
           <button type="button" onClick={() => DarkMode()}>
             <FontAwesomeIcon
               icon={faMoon}
-              className="text-cyan-400 dark:text-purple-500"
+              className="text-cyan-400 dark:text-fuchsia-500"
               size="2xl"
             />
           </button>

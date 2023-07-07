@@ -8,37 +8,36 @@ export let styles = {
     top: "43px",
   },
   bmBurgerBars: {
-    background: "",
+    background: "#17DDFF",
   },
   bmBurgerBarsHover: {
-    background: "",
+    background: "#0097B2",
   },
   bmCrossButton: {
     height: "24px",
     width: "24px",
   },
   bmCross: {
-    background: "",
+    background: "#99ecef",
   },
   bmMenuWrap: {
     position: "fixed",
     height: "100%",
   },
   bmMenu: {
-    background: "",
+    background: "#0097B2",
     padding: "3em",
     fontSize: "1.15em",
   },
   bmMorphShape: {
-    fill: "",
+    fill: "#99ecef",
   },
   bmItemList: {
-    color: "",
+    color: "#99ecef",
   },
   bmText: {
     display: "flex",
     justify: "center",
-    color: "",
   },
   bmOverlay: {
     background: "rgba(0, 0, 0, 0.3)",
