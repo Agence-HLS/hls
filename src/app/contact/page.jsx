@@ -32,41 +32,43 @@ const Contact = () => {
         </section>
         {/*  */}
         <section className="">
-          <form action="" className="flex flex-col items-center">
+          <form action="" className="flex flex-col items-center ">
             {/* La div représente un bloc avec un grid en 2 colonne */}
             <div className="grid grid-cols-2 px-12 py-5 ">
               {/* Colonne 1 */}
               <div className="flex flex-col items-center pr-10">
                 <label htmlFor="" className="">
-                  Votre nom :
+                  Votre nom:
                 </label>
                 <input
                   type="text"
-                  className="w-3/4 border-2 rounded-full border-cyan-200"
+                  className="w-3/4 border-2 rounded-full bg-cyan-200"
                 />
               </div>
               {/* Colonne 2 */}
-              <div className="flex flex-col items-center pl-10">
-                <label htmlFor="">Votre email :</label>
+              <div className="flex flex-col items-center pl-10 px-2 mx-2">
+                <label className="" htmlFor="">
+                  Votre email:
+                </label>
                 <input
                   type="email"
-                  className="w-3/4 border-2 rounded-full border-cyan-200"
+                  className="w-3/4 border-2 rounded-full bg-cyan-200"
                 />
               </div>
               {/* Colonne 3 */}
-              <div className="flex flex-col items-center pt-4 pr-10">
-                <label htmlFor="">Votre prénom :</label>
+              <div className="flex flex-col items-center pt-4 pr-10 px-2 mx-2">
+                <label htmlFor="">Votre prénom:</label>
                 <input
                   type="text"
-                  className="w-3/4 border-2 rounded-full border-cyan-200"
+                  className="w-3/4 border-2 rounded-full bg-cyan-200"
                 />
               </div>
               {/* Colonne 4 */}
-              <div className="flex flex-col items-center pt-4 pl-10 ">
-                <label htmlFor="">Votre téléphone :</label>
+              <div className="flex flex-col items-center pt-4 pl-10 px-2 mx-2">
+                <label htmlFor="">Votre téléphone:</label>
                 <input
                   type="tel"
-                  className="w-3/4 border-2 rounded-full border-cyan-200"
+                  className="w-3/4 border-2 rounded-full bg-cyan-200"
                 />
               </div>
             </div>
@@ -83,7 +85,9 @@ const Contact = () => {
               />
             </div>
             <div className="py-8">
-              <button className="border-2 rounded-full">Envoyer</button>
+              <button className="border-2 rounded-full bg-cyan-500">
+                Envoyer
+              </button>
             </div>
           </form>
         </section>

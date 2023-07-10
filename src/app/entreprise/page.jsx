@@ -17,7 +17,7 @@ const Entreprise = () => {
               width={250}
               height={250}
             />
-            <p className="pt-4 px-40">
+            <p className="pt-4 px-41 mx-10 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
               voluptates ea est saepe quos repudiandae, eum aut provident
               obcaecati eveniet at dolorum possimus architecto deserunt quam
@@ -35,7 +35,7 @@ const Entreprise = () => {
             height={250}
             className="pt-6"
           />
-          <p className="pt-4 px-40">
+          <p className="pt-4 px-41 mx-10">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At
             veritatis commodi illo maxime quasi? Excepturi, consequatur porro
             temporibus laborum dolores eos debitis vel voluptas fugit ipsa aut
