@@ -3,7 +3,7 @@ import Image from "next/image";
 const Introduction = () => {
   return (
     <>
-      <main className="flex hidden:lg flex flex-col px-20">
+      <main className=" dark:bg-black dark:text-white flex hidden:lg flex flex-col px-20">
         <section className="">
           <div>
             <h1 className="uppercase flex flex-col items-center pt-5">
