@@ -13,10 +13,7 @@ const Contact = () => {
           </div>
           <div className="px-20 pt-10">
             <h2 id="text-color">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate neque esse excepturi illum laborum aliquid, odit fuga?
-              Nemo, corporis esse! Blanditiis architecto, ratione odio impedit
-              eius odit facere aliquid error.
+           Nous sommes ravis que vous souhaiteriez entrer en contact avec nous.N'hesitez pas a nous contacter en remplissant le formulaire de contact
             </h2>
           </div>
 
