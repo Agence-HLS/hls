@@ -4,13 +4,12 @@ import Footer from "@/components/layouts/footer";
 const Contact = () => {
   return (
     <>
-      <header>
-        <HeaderMobile />
-      </header>
+      <HeaderMobile />
+
       <main className="flex lg:hidden grid grid-cols-1">
         <section className="flex-auto">
           {/*</main>className="flex lg:hidden"*/}
-          <div className="pt-10">
+          <div className="pt-10 mt-32">
             <h1 className="text-center uppercase " id="tittle-font">
               contactez-nous
             </h1>
@@ -96,9 +95,8 @@ const Contact = () => {
           </form>
         </section>
       </main>
-      <footer>
-        <Footer />
-      </footer>
+
+      <Footer />
     </>
   );
 };

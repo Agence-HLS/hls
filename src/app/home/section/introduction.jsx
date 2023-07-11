@@ -1,12 +1,14 @@
+import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Image from "next/image";
 
 const Introduction = () => {
   return (
     <>
-      <main className="flex hidden:lg flex flex-col px-20">
-        <section className="">
+      <HeaderMobile />
+      <main className="dark:text-fuchsia-500 dark:bg-black flex hidden:lg flex flex-col px-20">
+        <section className="mt-32">
           <div>
-            <h1 className="uppercase flex flex-col items-center pt-5">
+            <h1 className=" uppercase flex flex-col items-center pt-5">
               deep 404{" "}
             </h1>
           </div>
@@ -19,7 +21,7 @@ const Introduction = () => {
             <p className="pt-5">CTA projet</p>
           </div>
           <div className="flex flex-col items-center">
-            <p className="uppercase pt-10">titre</p>
+            <p className=" dark:text-purple-500 uppercase pt-10">titre</p>
           </div>
           <div className="flex flex-row items-center pt-10 mr-3">
             <p className="">

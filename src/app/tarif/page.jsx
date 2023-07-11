@@ -4,11 +4,10 @@ import Footer from "@/components/layouts/footer";
 const Entreprise = () => {
   return (
     <>
-      <header>
-        <HeaderMobile />
-      </header>
-      <main className="flex hidden:lg flex flex-col">
-        <div className="flex flex-col items-center">
+      <HeaderMobile />
+
+      <main className="flex hidden:lg flex-col">
+        <div className="mt-32 flex flex-col items-center">
           <h1 className="uppercase flex flex-col items-center pt-5 ">
             nos tarifs
           </h1>
@@ -27,9 +26,7 @@ const Entreprise = () => {
           <h2 className="pt-10 text-center upp">offres nouveaux client</h2>
         </div>
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 };
