@@ -1,7 +1,12 @@
 import Image from "next/image";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footer";
 const Entreprise = () => {
   return (
     <>
+      <header>
+        <HeaderMobile />
+      </header>
       <main className="flex hidden:lg flex flex-col">
         <div className="flex flex-col items-center">
           <h1 className="uppercase flex flex-col items-center pt-5 ">
@@ -19,11 +24,12 @@ const Entreprise = () => {
           </p>
         </div>
         <div>
-            <h2 className="pt-10 text-center upp">
-                offres nouveaux client
-            </h2>
+          <h2 className="pt-10 text-center upp">offres nouveaux client</h2>
         </div>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

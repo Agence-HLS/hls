@@ -1,8 +1,12 @@
 import Image from "next/image";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footer";
 const Contact = () => {
   return (
     <>
-      {" "}
+      <header>
+        <HeaderMobile />
+      </header>
       <main className="flex lg:hidden grid grid-cols-1">
         <section className="flex-auto">
           {/*</main>className="flex lg:hidden"*/}
@@ -92,6 +96,9 @@ const Contact = () => {
           </form>
         </section>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
