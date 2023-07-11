@@ -19,10 +19,10 @@ const HeaderMobile = () => {
     <header className="flex lg:hidden">
       <nav
         className="w-full h-28 bg-gray-100
-       grid grid-cols-3 dark:bg-black"
+       grid grid-cols-3 dark:bg-gray-900"
       >
         <div>
-          <Menu className="dark: text-purple-500" styles={styles}>
+          <Menu className="dark: text-pink-400" styles={styles}>
             <div className="ml-2">
               <Image
                 src="/white-logo.svg"
@@ -38,29 +38,29 @@ const HeaderMobile = () => {
                 alt="Logo"
                 className="dark:flex hidden"
               />
-            </div>
+            </div >
             <Link href="/" className="pt-6">
               <FontAwesomeIcon icon={faHouseUser} className="py-1 pr-2" />
               ACCUEIL
             </Link>
             <Link href="/" className="py-3">
               <FontAwesomeIcon icon={faCircleInfo} className="py-1 pr-2" />{" "}
-              NOTRE ENTREPRISE
+              ENTREPRISE
             </Link>
             <Link href="/">
               <FontAwesomeIcon icon={faHandHoldingHand} className="py-1 pr-2" />{" "}
-              NOS CLIENTS
+              CLIENTS
             </Link>
             <Link href="/" className="py-3">
               <FontAwesomeIcon icon={faMoneyBill} className="py-1 pr-2" />
-              NOS TARIFS
+              TARIFS
             </Link>
             <Link href="/">
               <FontAwesomeIcon icon={faAddressBook} className="py-1 pr-2" />
-              NOUS CONTACTER
+              CONTACT
             </Link>
             <div className="w-2/3 flex justify-center fixed bottom-0">
-              Copyright Deep404 
+              Copyright Deep404
             </div>
           </Menu>
         </div>
@@ -86,7 +86,7 @@ const HeaderMobile = () => {
           <button type="button" onClick={() => DarkMode()}>
             <FontAwesomeIcon
               icon={faMoon}
-              className="text-cyan-400 dark:text-fuchsia-500"
+              className="text-cyan-300 dark:text-fuchsia-500"
               size="2xl"
             />
           </button>
