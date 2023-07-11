@@ -6,7 +6,7 @@ import DarkMode from "@/components/tools/darkMode";
 // import { faMoon } from "@fortawesome/free-regular-svg-icons";
 const Navbar = () => {
   return (
-    <header className=" bg-gray-100 dark:bg-black hidden lg:flex grid-cols-5" widt={300} height={300}>
+    <header className=" bg-gray-100 dark:bg-gray-900 hidden lg:flex grid-cols-5" widt={300} height={300}>
       <div>
         <Image src="/White-logo.svg" width={150} height={150} alt="Logo" className="dark:hidden" />
         <Image src="/black-logo.svg" width={150} height={150} alt="Logo" className="hidden dark:flex" />
@@ -16,12 +16,12 @@ const Navbar = () => {
       </div>
       <div className="w-full px-60 flex  items-center justify-center">
         <nav>
-          <ul className=" text-cyan-300 dark:text-purple-500 flex flex-row text-lg">
+          <ul className=" text-cyan-300 dark:text-pink-400 flex flex-row text-lg">
            <Link href="/">ACCUEIL</Link>
-           <Link href="/" className="px-5">NOTRE ENTREPRISE</Link>
-           <Link href="/">NOS CLIENTS</Link>
-           <Link href="/" className="px-5">NOS TARIFS</Link>
-           <Link href="/">NOUS CONTACTER</Link>
+           <Link href="/" className="px-5">ENTREPRISE</Link>
+           <Link href="/">CLIENTS</Link>
+           <Link href="/" className="px-5">TARIFS</Link>
+           <Link href="/">CONTACT</Link>
           </ul>
         </nav>
       </div>

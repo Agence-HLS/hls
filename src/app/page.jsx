@@ -1,4 +1,4 @@
-"use client5";
+"use client";
 
 import Image from "next/image";
 

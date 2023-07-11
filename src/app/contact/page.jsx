@@ -6,20 +6,17 @@ const Contact = () => {
     <>
       <HeaderMobile />
 
-      <main className="flex lg:hidden grid grid-cols-1">
+      <main className="dark:bg-black dark:text-fuchsia-500 flex lg:hidden grid grid-cols-1">
         <section className="flex-auto">
           {/*</main>className="flex lg:hidden"*/}
           <div className="pt-10 mt-32">
-            <h1 className="text-center uppercase " id="tittle-font">
+            <h1 className="dark:text-pink-500 text-center uppercase " id="tittle-font">
               contactez-nous
             </h1>
           </div>
           <div className="px-20 pt-10">
             <h2 id="text-color">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate neque esse excepturi illum laborum aliquid, odit fuga?
-              Nemo, corporis esse! Blanditiis architecto, ratione odio impedit
-              eius odit facere aliquid error.
+           Nous sommes ravis que vous souhaiteriez entrer en contact avec nous.N'hesitez pas a nous contacter en remplissant le formulaire de contact
             </h2>
           </div>
 
