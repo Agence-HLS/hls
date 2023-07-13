@@ -1,14 +1,5 @@
 const Clients = () => {
-    return (
-      <>
-  
+  return <></>;
+};
 
-
-
-  
-      </>
-    );
-  };
-  
-  export default Clients;
-  
+export default Clients;
