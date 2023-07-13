@@ -1,12 +1,15 @@
 import Image from "next/image";
+import HeaderD from "@/components/layouts/HeaderD";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footer";
 const Entreprise = () => {
   return (
     <>
-      <main className="flex hidden:lg flex flex-col">
-        <div className="flex flex-col items-center">
-          <h1 className="uppercase flex flex-col items-center pt-5 ">
-            nos tarifs
-          </h1>
+      <HeaderD />
+      <HeaderMobile />
+      <main className="flex hidden:lg flex-col ">
+        <div className="mt-32 flex flex-col items-center">
+          <h1 className="uppercase flex flex-col items-center  ">nos tarifs</h1>
           <h2 className="uppercase flex flex-col items-center pt-10 ">
             nos offres
           </h2>
@@ -17,6 +20,7 @@ const Entreprise = () => {
             consequuntur exercitationem amet eligendi possimus ratione in?
           </p>
         </div>
+        <h2 className="pt-10 text-center upp">offres nouveaux client</h2>
         <div className="flex flex-col ">
           <h2 className=" uppercase pt-10 text-center py-10">
             offres nouveaux client
@@ -59,8 +63,8 @@ const Entreprise = () => {
           </table>
           <p className="flex justify-center pt-5">CTA</p>
         </div>
-        
       </main>
+      <Footer />
     </>
   );
 };

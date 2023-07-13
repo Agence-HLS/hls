@@ -1,12 +1,16 @@
 import Image from "next/image";
-
+import HeaderD from "@/components/layouts/HeaderD";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footer";
 const Entreprise = () => {
   return (
     <>
+      <HeaderD />
+      <HeaderMobile />
       {/*SOUS-TITRE  */}
       <main className="flex grid grid-cols-1">
         <section>
-          <div className="flex flex-col items-center mt-10">
+          <div className=" mt-32 flex flex-col items-center ">
             <h1 className="uppercase">A propos de nous</h1>
             <h2>Sous-titre</h2>
           </div>
@@ -47,6 +51,8 @@ const Entreprise = () => {
           <h1 className="uppercase">nos point fort</h1>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 };

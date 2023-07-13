@@ -1,19 +1,28 @@
 import Image from "next/image";
+import HeaderD from "@/components/layouts/HeaderD";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footer";
 const Contact = () => {
   return (
     <>
-      {" "}
-      <main className="flex lg:hidden grid grid-cols-1">
+      <HeaderMobile />
+      <HeaderD />
+      <main className="dark:bg-black dark:text-fuchsia-500 flex lg:hidden grid grid-cols-1">
         <section className="flex-auto">
           {/*</main>className="flex lg:hidden"*/}
-          <div className="pt-10">
-            <h1 className="text-center uppercase " id="tittle-font">
+          <div className="pt-10 mt-32">
+            <h1
+              className="dark:text-pink-500 text-center uppercase "
+              id="tittle-font"
+            >
               contactez-nous
             </h1>
           </div>
           <div className="px-20 pt-10">
             <h2 id="text-color">
-           Nous sommes ravis que vous souhaiteriez entrer en contact avec nous.N'hesitez pas a nous contacter en remplissant le formulaire de contact
+              Nous sommes ravis que vous souhaiteriez entrer en contact avec
+              nous.N'hesitez pas a nous contacter en remplissant le formulaire
+              de contact
             </h2>
           </div>
 
@@ -89,6 +98,8 @@ const Contact = () => {
           </form>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 };

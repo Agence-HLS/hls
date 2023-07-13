@@ -16,7 +16,7 @@ import { useState } from "react";
 
 const HeaderMobile = () => {
   return (
-    <header className="flex lg:hidden">
+    <header className="fixed w-full flex lg:hidden">
       <nav
         className="w-full h-28 bg-gray-100
        grid grid-cols-3 dark:bg-gray-900"
@@ -43,7 +43,7 @@ const HeaderMobile = () => {
               <FontAwesomeIcon icon={faHouseUser} className="py-1 pr-2" />
               ACCUEIL
             </Link>
-            <Link href="/" className="py-3">
+            <Link href="/entreprise" className="py-3">
               <FontAwesomeIcon icon={faCircleInfo} className="py-1 pr-2" />{" "}
               ENTREPRISE
             </Link>
@@ -51,11 +51,11 @@ const HeaderMobile = () => {
               <FontAwesomeIcon icon={faHandHoldingHand} className="py-1 pr-2" />{" "}
               CLIENTS
             </Link>
-            <Link href="/" className="py-3">
+            <Link href="/tarif" className="py-3">
               <FontAwesomeIcon icon={faMoneyBill} className="py-1 pr-2" />
               TARIFS
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <FontAwesomeIcon icon={faAddressBook} className="py-1 pr-2" />
               CONTACT
             </Link>

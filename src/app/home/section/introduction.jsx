@@ -1,12 +1,14 @@
+import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Image from "next/image";
 
 const Introduction = () => {
   return (
     <>
-      <main className=" dark:bg-black dark:text-white flex hidden:lg flex flex-col px-20">
-        <section className="">
+      <HeaderMobile />
+      <main className="dark:text-fuchsia-500 dark:bg-black flex hidden:lg flex flex-col px-20">
+        <section className="mt-32">
           <div>
-            <h1 className="uppercase flex flex-col items-center pt-5">
+            <h1 className=" uppercase flex flex-col items-center pt-5">
               deep 404{" "}
             </h1>
           </div>
