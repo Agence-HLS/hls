@@ -6,7 +6,7 @@ const Entreprise = () => {
     <>
       <HeaderMobile />
 
-      <main className="flex hidden:lg flex-col">
+      <main className=" dark:bg-black dark:text-fuchsia-500 flex hidden:lg flex-col">
         <div className="mt-32 flex flex-col items-center">
           <h1 className="uppercase flex flex-col items-center pt-5 ">
             nos tarifs
