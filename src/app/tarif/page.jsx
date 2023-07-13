@@ -59,6 +59,7 @@ const Entreprise = () => {
           </table>
           <p className="flex justify-center pt-5">CTA</p>
         </div>
+        
       </main>
     </>
   );
