@@ -13,7 +13,7 @@ const Entreprise = () => {
         <section>
           <div className=" mt-32 flex flex-col items-center ">
             <h1 className="dark:text-purple-500 uppercase">A propos de nous</h1>
-            <h2>Sous-titre</h2>
+            <h2>Présentations</h2>
           </div>
           <div className="flex flex-col items-center mt-8">
             <Image
@@ -22,11 +22,8 @@ const Entreprise = () => {
               width={250}
               height={250}
             />
-            <p className="pt-4 px-41 mx-10 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              voluptates ea est saepe quos repudiandae, eum aut provident
-              obcaecati eveniet at dolorum possimus architecto deserunt quam
-              vitae harum dignissimos! Consequatur.
+            <p className="py-4 px-10 ">
+              Nous somme une entreprise qui propose des services sur le devellopement web, ont est une équipe constitué de 3 jeunes Devellopeur Web et Web Mobile qui vous offre ces services et des conseils sur vos projets de site web
             </p>
           </div>
         </section>
@@ -40,16 +37,25 @@ const Entreprise = () => {
             height={250}
             className="pt-6"
           />
-          <p className="pt-4 px-41 mx-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-            veritatis commodi illo maxime quasi? Excepturi, consequatur porro
-            temporibus laborum dolores eos debitis vel voluptas fugit ipsa aut
-            tempore reprehenderit cupiditate!
-          </p>
+          <p className="pt-4 px-10">
+           Nous somme une agence web qui aimons le defi et vous offrir nos services serai un bon defi a relever, nous somme aussi a l'écoute et pouvons vous donnez des conseils sur certains aspect qui se réfère a notre metier de plus ont est un petit groupe donc pour la coordination c'est plutot efficace </p>
         </section>
         {/*nos point fort*/}
         <section className="flex flex-col items-center mt-10">
           <h1 className="uppercase">nos point fort</h1>
+          <div className="grid grid-cols-2 py-4
+          ">
+            <ul className="px-6">
+              <li>Être à l'écoute</li>
+              <li>Disponibilité</li>
+              <li>Communication</li>
+            </ul>
+            <ul className="px-6">
+              <li>Aimable</li>
+              <li>Rigoureux</li>
+              <li>Coordination</li>
+            </ul>
+          </div>
         </section>
       </main>
 

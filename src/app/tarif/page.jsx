@@ -10,9 +10,7 @@ const Entreprise = () => {
 
       <main className=" dark:bg-black dark:text-fuchsia-500 flex hidden:lg flex-col">
         <div className="mt-32 flex flex-col items-center">
-          <h1 className="uppercase flex flex-col items-center pt-5 ">
-            nos tarifs
-          </h1>
+          <h1 className="uppercase flex flex-col items-center  ">nos tarifs</h1>
           <h2 className="uppercase flex flex-col items-center pt-10 ">
             nos offres
           </h2>
@@ -23,23 +21,22 @@ const Entreprise = () => {
             consequuntur exercitationem amet eligendi possimus ratione in?
           </p>
         </div>
-      
-          <h2 className="pt-10 text-center upp">offres nouveaux client</h2>
+        <h2 className="pt-10 text-center upp">offres nouveaux client</h2>
         <div className="flex flex-col ">
           <h2 className=" uppercase pt-10 text-center py-10">
             offres nouveaux client
           </h2>
-
-          <table class="border-separate border-spacing-2 border border-slate-500 ml-20 mr-20 pt-">
+*  <table class="border-separate border-spacing-2 border border-slate-500 ml-20 mr-20">
             <thead>
-              <tr>
-                <td class="border border-slate-600 ">option1</td>
+              <tr className="px-6">
+                <td class="border border-slate-600">
+                </td>
                 <td class="border border-slate-600 ">option2</td>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="border border-slate-700 ">option3</td>
+                <td class="border border-slate-700 "></td>
                 <td class="border border-slate-700 ">option4</td>
               </tr>
             </tbody>
@@ -54,7 +51,7 @@ const Entreprise = () => {
           <table class="border-separate border-spacing-2 border border-slate-500 ml-20 mr-20 pt-">
             <thead>
               <tr>
-                <td class="border border-slate-600 ">option1</td>
+                <td class="border border-slate-600 "></td>
                 <td class="border border-slate-600 ">option2</td>
               </tr>
             </thead>
