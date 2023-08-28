@@ -16,10 +16,10 @@ const Navbar = () => {
         <nav>
           <ul className=" text-cyan-300 dark:text-pink-400 flex flex-row text-lg">
            <Link href="/">ACCUEIL</Link>
-           <Link href="/" className="px-5">ENTREPRISE</Link>
-           <Link href="/">CLIENTS</Link>
-           <Link href="/" className="px-5">TARIFS</Link>
-           <Link href="/">CONTACT</Link>
+           <Link href="/entreprise" className="px-5">ENTREPRISE</Link>
+           <Link href="/nos-clients">CLIENTS</Link>
+           <Link href="/tarifs" className="px-5">TARIFS</Link>
+           <Link href="/contact">CONTACT</Link>
           </ul>
         </nav>
       </div>

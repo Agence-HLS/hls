@@ -20,7 +20,7 @@ const Footer = () => {
         <section className="grid grid-cols-2 py-10">
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
-              className="text-purple-600"
+              className="text-blue-300"
               icon={faLinkedin}
               width={30}
               height={"auto"}
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
-              className="text-purple-600"
+              className="text-blue-300"
               icon={faGithub}
               width={30}
               height={"auto"}
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
-              className="text-purple-600"
+              className="text-blue-300"
               alt="click"
               icon={faBook}
               width={30}
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center ">
             <FontAwesomeIcon
-              className="text-purple-600"
+              className="text-blue-300"
               icon={faFacebook}
               width={30}
               height={"auto"}
@@ -57,29 +57,29 @@ const Footer = () => {
           </div>
         </section>
 
-        {/* 
-            <div className=" py-12 pr-5   ">
-              <Image src="/black-logo.svg" width={100} height={100} alt="" />
-            </div> */}
+        
+            <div className=" flex flex-col items-center  ">
+              <Image src="/black-logo.svg" width={200} height={200} alt="" />
+            </div>
 
         <section>
           <div className="flex flex-col items-center py-10">
             <h1 className="uppercase font-bold">Suivez nous !</h1>
             <p className="text-xs text-center py-2 px-4">Ne manquez pas l'actualité en vous inscrivant à notre newsletter</p>
 
-            <form action="" className="flex flex-col  items-center">
+            <form action="" className="flex flex-col items-center">
               <label htmlFor="">Votre adresse e-mail:</label>  
-              <div className="inline-flex justify-center border rounded-full ">
-                <input type="email" placeholder="Adresse e-mail..." className="w-1/2 " />
-                <button className="pl-4">Envoyer</button>
+              <div className="inline-flex justify-center ">
+                <input type="email" placeholder="Adresse e-mail..." className="border-solid w-1/2.5 " />
+                <button className="pl-4 ">Envoyer</button>
               </div>
             </form>
           </div>
-
+            <hr className="border-blue-600" />
           <div className="grid grid-rows-3 pb-10">
             <div className="flex flex-col items-center">
               <FontAwesomeIcon
-                className=" text-purple-600"
+                className=" text-blue-300"
                 icon={faLocationDot}
                 width={20}
                 height={"auto"}
@@ -92,7 +92,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col items-center">
               <FontAwesomeIcon
-                className="text-purple-600"
+                className="text-blue-300"
                 icon={faPhone}
                 width={20}
                 height={"auto"}
@@ -103,7 +103,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col items-center">
               <FontAwesomeIcon
-                className=" text-purple-600"
+                className=" text-blue-300"
                 icon={faEnvelope}
                 width={20}
                 height={"auto"}
@@ -115,14 +115,14 @@ const Footer = () => {
           </div>
         </section>
 
-        <hr className="border-blue-500" />
+        <hr className="border-blue-300" />
         <div className="py-6 text-sm flex flex-col items-center">
           <Link href="">Mentions légales</Link>
           <Link href="">Condition Génerale</Link>
           <Link href="">Charte des cookies</Link>
           <Link href="">Politique de confidentialité</Link>
         </div>
-        <hr className="border-blue-500" />
+        <hr className="border-blue-300" />
         <div className="flex flex-col items-center text-xs py-6">
           <p>Agence Deep 404</p>
           <p>&copy; Copyright - 2023</p>

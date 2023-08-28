@@ -48,7 +48,7 @@ const HeaderMobile = () => {
               <FontAwesomeIcon icon={faCircleInfo} className="py-1 pr-2" />{" "}
               ENTREPRISE
             </Link>
-            <Link href="/">
+            <Link href="/nos-clients">
               <FontAwesomeIcon icon={faHandHoldingHand} className="py-1 pr-2" />{" "}
               CLIENTS
             </Link>
