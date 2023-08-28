@@ -1,10 +1,17 @@
 
 import Link from "next/link";
 import { render } from "react-dom";
+import Navbar from "@/components/layouts/HeaderD";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footermobile/footer";
 const client = () => {
 
     return (
-        <main className=" bg-slate-500 flex lg:bg-slate-500 lg:hidden  md:flex-auto  flex-col flex-initial justify-center">
+        <main>
+
+        <Navbar/>
+        <HeaderMobile/>
+        
     <section className="">
       <div className="py-10">
         <h1 className="uppercase flex justify-center bg-slate-400 rounded-md py-8">Nos clients</h1>
@@ -92,7 +99,8 @@ const client = () => {
                 </div>
                 </div>
 </section>
-  </main>
+<Footer/>
+        </main>
 );
 };
 export default client;

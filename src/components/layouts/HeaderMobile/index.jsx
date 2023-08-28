@@ -13,10 +13,11 @@ import { styles } from "./styles";
 import { bubble as Menu } from "react-burger-menu";
 import DarkMode from "../../tools/darkMode";
 import { useState } from "react";
-
+import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
 const HeaderMobile = () => {
+  const [showButton, setShowButton] = useState(false);
   return (
-    <header className="flex lg:hidden">
+    <header className="fixed w-full flex lg:hidden">
       <nav
         className="w-full h-28 bg-gray-100
        grid grid-cols-3 dark:bg-gray-900"
@@ -43,19 +44,19 @@ const HeaderMobile = () => {
               <FontAwesomeIcon icon={faHouseUser} className="py-1 pr-2" />
               ACCUEIL
             </Link>
-            <Link href="/" className="py-3">
+            <Link href="/entreprise" className="py-3">
               <FontAwesomeIcon icon={faCircleInfo} className="py-1 pr-2" />{" "}
               ENTREPRISE
             </Link>
-            <Link href="/">
+            <Link href="/nos-clients">
               <FontAwesomeIcon icon={faHandHoldingHand} className="py-1 pr-2" />{" "}
               CLIENTS
             </Link>
-            <Link href="/" className="py-3">
+            <Link href="/tarif" className="py-3">
               <FontAwesomeIcon icon={faMoneyBill} className="py-1 pr-2" />
               TARIFS
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <FontAwesomeIcon icon={faAddressBook} className="py-1 pr-2" />
               CONTACT
             </Link>
@@ -82,14 +83,24 @@ const HeaderMobile = () => {
           />
         </div>
 
-        <div className="flex justify-center items-center">
-          <button type="button" onClick={() => DarkMode()}>
-            <FontAwesomeIcon
-              icon={faMoon}
-              className="text-cyan-300 dark:text-fuchsia-500"
-              size="2xl"
+        <div className="flex items-center justify-center py-2 dark:text-pink-400 text-cyan-300 px-10 text-xl">
+          {showButton === true ? (
+            <CgToggleSquareOff
+              onClick={() => {
+                DarkMode();
+                
+                setShowButton(false);
+              }}
             />
-          </button>
+          ) : (
+            <CgToggleSquare
+              onClick={() => {
+                DarkMode();
+              
+                setShowButton(true);
+              }}
+            />
+          )}
         </div>
       </nav>
     </header>

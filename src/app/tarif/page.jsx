@@ -1,9 +1,15 @@
 import Image from "next/image";
+import Navbar from "@/components/layouts/HeaderD";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footermobile/footer";
 const Entreprise = () => {
   return (
     <>
-      <main className="flex hidden:lg flex flex-col">
-        <div className="flex flex-col items-center">
+      <Navbar/>
+      <HeaderMobile />
+
+      <main className=" dark:bg-black dark:text-fuchsia-500 flex hidden:lg flex-col">
+        <div className="mt-32 flex flex-col items-center">
           <h1 className="uppercase flex flex-col items-center pt-5 ">
             nos tarifs
           </h1>
@@ -17,6 +23,8 @@ const Entreprise = () => {
             consequuntur exercitationem amet eligendi possimus ratione in?
           </p>
         </div>
+      
+          <h2 className="pt-10 text-center upp">offres nouveaux client</h2>
         <div className="flex flex-col ">
           <h2 className=" uppercase pt-10 text-center py-10">
             offres nouveaux client
@@ -60,6 +68,7 @@ const Entreprise = () => {
           <p className="flex justify-center pt-5">CTA</p>
         </div>
       </main>
+      <Footer />
     </>
   );
 };
