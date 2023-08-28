@@ -25,11 +25,7 @@
     "react-burger-menu": "^3.0.9",
     "react-carousel-minimal": "^1.4.1",
     "react-dom": "18.2.0",
-<<<<<<< HEAD
     "react-icons": "^4.10.1",
-=======
-    "react-responsive-carousel": "^3.2.23",
->>>>>>> 39b84fc52f60df9d398e98ece4eb548cac4df540
     "tailwindcss": "3.3.2"
   }
 }

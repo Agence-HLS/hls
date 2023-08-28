@@ -1,7 +1,7 @@
 import Image from "next/image";
-import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Navbar from "@/components/layouts/HeaderD";
-import Footer from "@/components/layouts/footer";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footermobile/footer";
 const Contact = () => {
   return (
     <>

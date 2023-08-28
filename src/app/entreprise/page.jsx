@@ -1,12 +1,13 @@
 import Image from "next/image";
-import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Navbar from "@/components/layouts/HeaderD";
-import Footer from "@/components/layouts/footer";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footermobile/footer";
+
 const Entreprise = () => {
   return (
     <>
-      <Navbar/>
-      <HeaderMobile />
+     <Navbar/>
+     <HeaderMobile/>
       {/*SOUS-TITRE  */}
       <main className="dark:bg-black dark: text-fuchsia-500 flex grid grid-cols-1">
         <section>
@@ -52,7 +53,7 @@ const Entreprise = () => {
         </section>
       </main>
 
-      <Footer />
+      <Footer/>
     </>
   );
 };
