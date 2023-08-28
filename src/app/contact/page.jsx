@@ -1,12 +1,14 @@
 import Image from "next/image";
 import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Navbar from "@/components/layouts/HeaderD";
 import Footer from "@/components/layouts/footer";
 const Contact = () => {
   return (
     <>
+    
       <HeaderMobile />
-
-      <main className="dark:bg-black dark:text-fuchsia-500 flex lg:hidden grid grid-cols-1">
+      <Navbar/>
+      <main className="dark:bg-black dark:text-fuchsia-500  grid grid-cols-1">
         <section className="flex-auto">
           {/*</main>className="flex lg:hidden"*/}
           <div className="pt-10 mt-32">

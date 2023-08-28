@@ -1,9 +1,11 @@
 import Image from "next/image";
 import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Navbar from "@/components/layouts/HeaderD";
 import Footer from "@/components/layouts/footer";
 const Entreprise = () => {
   return (
     <>
+      <Navbar/>
       <HeaderMobile />
       {/*SOUS-TITRE  */}
       <main className="dark:bg-black dark: text-fuchsia-500 flex grid grid-cols-1">

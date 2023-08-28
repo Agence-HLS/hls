@@ -13,8 +13,9 @@ import { styles } from "./styles";
 import { bubble as Menu } from "react-burger-menu";
 import DarkMode from "../../tools/darkMode";
 import { useState } from "react";
-
+import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
 const HeaderMobile = () => {
+  const [showButton, setShowButton] = useState(false);
   return (
     <header className="fixed w-full flex lg:hidden">
       <nav
@@ -82,14 +83,24 @@ const HeaderMobile = () => {
           />
         </div>
 
-        <div className="flex justify-center items-center">
-          <button type="button" onClick={() => DarkMode()}>
-            <FontAwesomeIcon
-              icon={faMoon}
-              className="text-cyan-300 dark:text-fuchsia-500"
-              size="2xl"
+        <div className="flex items-center justify-center py-2 dark:text-pink-400 text-cyan-300 px-10 text-xl">
+          {showButton === true ? (
+            <CgToggleSquareOff
+              onClick={() => {
+                DarkMode();
+                
+                setShowButton(false);
+              }}
             />
-          </button>
+          ) : (
+            <CgToggleSquare
+              onClick={() => {
+                DarkMode();
+              
+                setShowButton(true);
+              }}
+            />
+          )}
         </div>
       </nav>
     </header>

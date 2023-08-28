@@ -1,6 +1,6 @@
 import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Image from "next/image";
-
+import Navbar from "@/components/layouts/HeaderD";
 const Introduction = () => {
   return (
     <>
