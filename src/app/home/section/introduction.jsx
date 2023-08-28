@@ -1,6 +1,8 @@
 import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Image from "next/image";
-
+import carousel from "carousel";
+import { Carousel } from "react-carousel-minimal";
+import DemoCarousel from "@/app/carousel/page";
 const Introduction = () => {
   return (
     <>
@@ -20,6 +22,7 @@ const Introduction = () => {
             />
             <p className="pt-5">CTA projet</p>
           </div>
+          <div></div>
           <div className="flex flex-col items-center">
             <p className="uppercase pt-10">titre</p>
             <div className="flex flex-row items-center pt-10 mr-3">
@@ -113,6 +116,12 @@ const Introduction = () => {
             <p>CTA</p>
           </div>
         </section>
+
+        <sections>
+          <div>
+            <DemoCarousel />
+          </div>
+        </sections>
       </main>
     </>
   );
