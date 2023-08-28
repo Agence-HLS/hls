@@ -16,7 +16,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-slate-500 text-black-300  justify-center lg:  md:bg-slate-400 md:flex-auto">
+      <footer className=" py-4  bg-slate-500 text-black-300  justify-center   bg-slate-400 flex-auto">
         <section className="grid grid-cols-2 py-10">
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
@@ -58,8 +58,8 @@ const Footer = () => {
         </section>
 
         
-            <div className=" flex flex-col items-center  ">
-              <Image src="/black-logo.svg" width={200} height={200} alt="" />
+            <div className=" flex justify-center  ">
+              <Image src="/black-logo.svg" width={100} height={200} alt="" />
             </div>
 
         <section>
