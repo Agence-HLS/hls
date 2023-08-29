@@ -17,7 +17,7 @@ import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
 const HeaderMobile = () => {
   const [showButton, setShowButton] = useState(false);
   return (
-    <header className="fixed w-full flex lg:hidden">
+    <header className="fixed w-full z-50 flex lg:hidden">
       <nav
         className="w-full h-28 bg-gray-100
        grid grid-cols-3 dark:bg-gray-900"
