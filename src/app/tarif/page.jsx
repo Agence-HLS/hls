@@ -1,13 +1,14 @@
 import Image from "next/image";
-import HeaderD from "@/components/layouts/HeaderD";
+import Navbar from "@/components/layouts/HeaderD";
 import HeaderMobile from "@/components/layouts/HeaderMobile";
-import Footer from "@/components/layouts/footer";
+import Footer from "@/components/layouts/footermobile/footer";
 const Entreprise = () => {
   return (
     <>
-      <HeaderD />
+      <Navbar/>
       <HeaderMobile />
-      <main className="flex hidden:lg flex-col ">
+
+      <main className=" dark:bg-black dark:text-fuchsia-500 flex hidden:lg flex-col">
         <div className="mt-32 flex flex-col items-center">
           <h1 className="uppercase flex flex-col items-center  ">nos tarifs</h1>
           <h2 className="uppercase flex flex-col items-center pt-10 ">
