@@ -1,24 +1,35 @@
 import Image from "next/image";
 import Navbar from "@/components/layouts/HeaderD";
 import HeaderMobile from "@/components/layouts/HeaderMobile";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "@/components/layouts/footermobile/footer";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+
 const Contact = () => {
   return (
     <>
-    
       <HeaderMobile />
-      <Navbar/>
-      <main className="dark:bg-black dark:text-fuchsia-500  grid grid-cols-1">
-        <section className="flex-auto">
+      <Navbar />
+      <main className="dark:bg-black dark:text-fuchsia-500   grid grid-cols-1">
+        <section className="containblue flex-auto my-10">
           {/*</main>className="flex lg:hidden"*/}
-          <div className="pt-10 mt-32">
-            <h1 className="dark:text-pink-500 text-center uppercase " id="tittle-font">
+          <div className="pt-10 mt-32 ">
+            <h1
+              className="dark:text-pink-500 text-center uppercase  "
+              id="tittle-font"
+            >
               contactez-nous
             </h1>
           </div>
           <div className="px-20 pt-10">
             <h2 id="text-color">
-           Nous sommes ravis que vous souhaiteriez entrer en contact avec nous.N'hesitez pas a nous contacter en remplissant le formulaire de contact
+              Nous sommes ravis que vous souhaiteriez entrer en contact avec
+              nous.N'hesitez pas a nous contacter en remplissant le formulaire
+              de contact
             </h2>
           </div>
 
@@ -33,18 +44,18 @@ const Contact = () => {
           </div>
         </section>
         {/*  */}
-        <section className="">
+        <section className="my-10 containblue">
           <form action="" className="flex flex-col items-center ">
             {/* La div représente un bloc avec un grid en 2 colonne */}
-            <div className="grid grid-cols-2 px-12 py-5 ">
+            <div className="grid grid-cols-2  py-5 ">
               {/* Colonne 1 */}
-              <div className="flex flex-col items-center pr-10">
+              <div className="flex flex-col items-center pr-10 mx-2">
                 <label htmlFor="" className="">
                   Votre nom:
                 </label>
                 <input
                   type="text"
-                  className="w-3/4 border-2 rounded-full bg-cyan-200"
+                  className="w-28 border-2 rounded-full bg-cyan-200"
                 />
               </div>
               {/* Colonne 2 */}
@@ -54,15 +65,15 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  className="w-3/4 border-2 rounded-full bg-cyan-200"
+                  className="w-28 border-2  rounded-full bg-cyan-200"
                 />
               </div>
               {/* Colonne 3 */}
-              <div className="flex flex-col items-center pt-4 pr-10 px-2 mx-2">
+              <div className="flex flex-col items-center pt-4 pr-10 px-2 mx-1">
                 <label htmlFor="">Votre prénom:</label>
                 <input
                   type="text"
-                  className="w-3/4 border-2 rounded-full bg-cyan-200"
+                  className="w-28 border-2 rounded-full bg-cyan-200"
                 />
               </div>
               {/* Colonne 4 */}
@@ -70,7 +81,7 @@ const Contact = () => {
                 <label htmlFor="">Votre téléphone:</label>
                 <input
                   type="tel"
-                  className="w-3/4 border-2 rounded-full bg-cyan-200"
+                  className="w-28 border-2 rounded-full bg-cyan-200"
                 />
               </div>
             </div>
@@ -92,6 +103,39 @@ const Contact = () => {
               </button>
             </div>
           </form>
+          <div className="containblue">
+            {" "}
+            <section className="grid grid-cols-3 py-10">
+              <div className="flex flex-col items-center">
+                <FontAwesomeIcon
+                  className="text-blue-300"
+                  icon={faLinkedin}
+                  width={30}
+                  height={"auto"}
+                />
+                <h3 className="text-xs uppercase pt-2 pb-8">Linkedin</h3>
+              </div>
+              <div className="flex flex-col items-center">
+                <FontAwesomeIcon
+                  className="text-blue-300"
+                  icon={faGithub}
+                  width={30}
+                  height={"auto"}
+                />
+                <h3 className="text-xs uppercase pt-2 pb-8">GitHub</h3>
+              </div>
+
+              <div className="flex flex-col items-center ">
+                <FontAwesomeIcon
+                  className="text-blue-300"
+                  icon={faFacebook}
+                  width={30}
+                  height={"auto"}
+                />
+                <h3 className="text-xs uppercase pt-2">Facebook</h3>
+              </div>
+            </section>
+          </div>
         </section>
       </main>
 

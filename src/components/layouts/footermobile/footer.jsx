@@ -16,46 +16,8 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className=" py-4  bg-slate-500 text-black-300  justify-center   bg-slate-400 flex-auto">
-        <section className="grid grid-cols-2 py-10">
-          <div className="flex flex-col items-center">
-            <FontAwesomeIcon
-              className="text-blue-300"
-              icon={faLinkedin}
-              width={30}
-              height={"auto"}
-            />
-            <h3 className="text-xs uppercase pt-2 pb-8">Linkedin</h3>
-          </div>
-          <div className="flex flex-col items-center">
-            <FontAwesomeIcon
-              className="text-blue-300"
-              icon={faGithub}
-              width={30}
-              height={"auto"}
-            />
-            <h3 className="text-xs uppercase pt-2 pb-8">GitHub</h3>
-          </div>
-          <div className="flex flex-col items-center">
-            <FontAwesomeIcon
-              className="text-blue-300"
-              alt="click"
-              icon={faBook}
-              width={30}
-              height={"auto"}
-            />
-            <h3 className="text-xs uppercase pt-2">Portfolio</h3>
-          </div>
-          <div className="flex flex-col items-center ">
-            <FontAwesomeIcon
-              className="text-blue-300"
-              icon={faFacebook}
-              width={30}
-              height={"auto"}
-            />
-            <h3 className="text-xs uppercase pt-2">Facebook</h3>
-          </div>
-        </section>
+      <footer className=" py-4  bg-slate-500 text-black-300  justify-center  flex-auto">
+       
 
         
             <div className=" flex justify-center  ">
@@ -70,8 +32,8 @@ const Footer = () => {
             <form action="" className="flex flex-col items-center">
               <label htmlFor="">Votre adresse e-mail:</label>  
               <div className="inline-flex justify-center ">
-                <input type="email" placeholder="Adresse e-mail..." className="border-solid w-1/2.5 " />
-                <button className="pl-4 ">Envoyer</button>
+                <input type="email" placeholder="Adresse e-mail..." className="border rounded-full border-solid w-1/2.5 " />
+                <button className="pl-4 border rounded-full justify-center mx-2">Envoyer</button>
               </div>
             </form>
           </div>
@@ -90,7 +52,7 @@ const Footer = () => {
                 77100 Meaux
               </a>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col my-5 items-center">
               <FontAwesomeIcon
                 className="text-blue-300"
                 icon={faPhone}
