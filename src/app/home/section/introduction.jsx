@@ -2,29 +2,12 @@ import HeaderMobile from "@/components/layouts/HeaderMobile";
 import DemoCarousel from "@/app/carousel/homepage/page";
 
 const Introduction = () => {
-  let backgroundImages = [
-    "/aurora.jpg",
-    "/beach.jpg",
-    "/iceland.jpg",
-    "/italy.jpg",
-    "/nature.jpg",
-    "/mountains.jpg"
-  ];
-  
-  function changeBackground() {
-    let random = Math.floor(Math.random() * backgroundImages.length);
-  
-    document.body.style.backgroundImage = "url(" + backgroundImages[random] + ")";
-    document.body.style.transition = "2s";
-  }
-  
-  setInterval(changeBackground, 2500);
   return (
     <>
       <HeaderMobile />
       <main className="dark:text-fuchsia-500 dark:bg-black flex hidden:lg flex flex-col">
         <section className="">
-          <div className="flex flex-col items-center bg-url['']  w-full h-screen bg-no-repeat bg-cover bg-center ">
+          <div className="flex flex-col items-center  w-full h-screen bg-no-repeat bg-cover bg-center ">
             <p className="pt-5 text-white">CTA projet</p>
           </div>
           <div className="flex flex-col items-center">
