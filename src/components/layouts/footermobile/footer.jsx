@@ -16,30 +16,10 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className=" py-4 contain-darkgrey text-black-300  justify-center  flex-auto">
-       
-
-        
-            <div className=" flex justify-center  ">
-              <Image src="/black-logo.svg" width={100} height={200} alt="" />
-            </div>
-
-        <section>
-          <div className="flex flex-col items-center ">
-            <h1 className="uppercase font-bold">Suivez nous !</h1>
-            <p className="text-xs text-center py-2 px-4">Ne manquez pas l'actualité en vous inscrivant à notre newsletter</p>
-
-            <form action="" className="grid grid-cols-1 items-center">
-              <label htmlFor="">Votre adresse e-mail:</label>  
-              <div className="flex flex-col justify-center items-center text-center space-y-3 ">
-                <input type="email" placeholder="Adresse e-mail..." className="border rounded-full border-solid w-1/2.5 " />
-                <button className=" border rounded-full containwhite w-20 ">Envoyer</button>
-              </div>
-            </form>
-          </div>
-            
-          <div className="grid grid-rows-3 my-5">
-            <div className="flex flex-col items-center">
+      <footer className=" containblue text-black-300  ">
+        <section className=" contain-darkgrey ">
+          <div className=" grid grid-cols-3 text-xs my-5">
+            <div className="flex flex-col items-center text-center ">
               <FontAwesomeIcon
                 className=" text-blue-300"
                 icon={faLocationDot}
@@ -74,21 +54,47 @@ const Footer = () => {
                 Contact@Deep404.com
               </a>
             </div>
-          </div>
-        </section>
+            <div className=" flex flex-col items-center py-5 ">
+              <h1 className="uppercase font-bold">Suivez nous !</h1>
+              <div className=" flex justify-start   ">
+                <Image src="/black-logo.svg" width={100} height={200} alt="" />
+              </div>
+              <p className="text-xs text-center ">
+                Ne manquez pas l'actualité en vous inscrivant à notre newsletter
+              </p>
 
-        <hr className="border-blue-300" />
-        <div className="py-6 text-sm flex flex-col items-center">
-          <Link href="">Mentions légales</Link>
-          <Link href="">Condition Génerale</Link>
-          <Link href="">Charte des cookies</Link>
-          <Link href="">Politique de confidentialité</Link>
-        </div>
-        <hr className="border-blue-300" />
-        <div className="flex flex-col items-center text-xs py-6">
-          <p>Agence Deep 404</p>
-          <p>&copy; Copyright - 2023</p>
-        </div>
+              <form
+                action=""
+                className="grid grid-cols-1 items-center space-x-4 "
+              >
+                <label className="text-center" htmlFor="">Votre adresse e-mail:</label>
+                <div className="  space-y-3 ">
+                  <input
+                    type="email"
+                    placeholder="Adresse e-mail..."
+                    className="border rounded-full border-solid w-20 flex justify-items-center  "
+                  />
+                  <button className=" border rounded-full  containwhite w-20 ">
+                    Envoyer
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 items-center ">
+            <div className="  text-sm ">
+              <Link href="">Mentions légales</Link>
+              <Link href="">Condition Génerale</Link>
+              <Link href="">Charte des cookies</Link>
+              <Link href="">Politique de confidentialité</Link>
+            </div>
+
+            <div className="  text-xs py-6">
+              <p>Agence Deep 404</p>
+              <p>&copy; Copyright - 2023</p>
+            </div>
+          </div>{" "}
+        </section>
       </footer>
     </>
   );
