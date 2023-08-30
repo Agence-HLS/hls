@@ -5,10 +5,22 @@
   },
   {
     "p": "legend2",
-    "img": "/homepage2.jfif"
+    "img": "/homepage2.jpg"
   },
   {
     "p": "legend3",
-    "img": "/homepage3.jfif"
+    "img": "/homepage3.jpg"
+  },
+  {
+    "p": "legend4",
+    "img": "/homepage4.jfif"
+  },
+  {
+    "p": "legend5",
+    "img": "/homepage5.jfif"
+  },
+  {
+    "p": "legend6",
+    "img": "/homepage6.jfif"
   }
 ]

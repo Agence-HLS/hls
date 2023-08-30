@@ -8,14 +8,18 @@ const Introduction = () => {
       <HeaderMobile />
       <main className="dark:text-fuchsia-500 dark:bg-black flex hidden:lg flex flex-col">
         <section className="">
-          <div className="">
+          <div className="my-32">
             <ImageChange />
           </div>
           <div className="flex flex-col items-center  w-full h-screen bg-no-repeat bg-cover bg-center ">
             <p className="pt-5 text-white">CTA projet</p>
           </div>
           <div className="flex flex-col items-center">
-            <p className="uppercase pt-24">titre</p>
+            <div>
+              <h1 className="flex flex-col items-center uppercase py-5 containblue">
+                titre
+              </h1>
+            </div>
             <div className="flex flex-row items-center pt-10 mr-3">
               <p className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
@@ -40,48 +44,21 @@ const Introduction = () => {
           </div>
           <div className="flex flex-col items-center  pt-10">CTA</div>
           <div>
-            <h2 className="flex flex-col items-center  pt-10 uppercase">
+            <h2 className="flex flex-col items-center mx-6 uppercase glassblue">
               titre
             </h2>
           </div>
-          <div className="flex flex-col items-center pt-10">
+          <div className="flex flex-col items-center ">
             <img src="/image.jfif" alt="test" className="" />
           </div>
-          <div className="flex flex-col items-center pt-10 uppercase">
-            nos expertises
-          </div>
-        </section>
-        <section className="grid grid-cols-3 pt-10">
-          <div className="flex flex-col items-center px-2">
-            <img src="/image.jfif" alt="test" className="" />
-            <p>CTA</p>
-          </div>
-          <div className="flex flex-col items-center px-2">
-            <img src="/image.jfif" alt="test" className="" />
-            <p>CTA</p>
-          </div>
-          <div className="flex flex-col items-center px-2">
-            <img src="/image.jfif" alt="test" className="" />
-            <p>CTA</p>
+          <div className="mt-5">
+            <h2 className="flex flex-col items-center py-5 uppercase glassblue lg:mx-60">
+              nos expertises
+            </h2>
           </div>
         </section>
-        <section className="grid grid-cols-3 pt-5">
-          <div className="flex flex-col items-center  px-2">
-            <img src="/image.jfif" alt="test" className="" />
-            <p>CTA</p>
-          </div>{" "}
-          <div className="flex flex-col items-center px-2">
-            <img src="/image.jfif" alt="test" className="" />
-            <p>CTA</p>
-          </div>{" "}
-          <div className="flex flex-col items-center px-2">
-            <img src="/image.jfif" alt="test" className="" />
-            <p>CTA</p>
-          </div>
-        </section>
-
         <sections>
-          <div>
+          <div className=" lg:mx-60">
             <DemoCarousel />
           </div>
         </sections>

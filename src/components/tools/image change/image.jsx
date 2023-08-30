@@ -15,10 +15,13 @@ const ImageChange = () => {
     
     document.body.style.backgroundImage =
       "url(" + backgroundImages[random] + ")";
-    document.body.style.transition = "2s";
+    document.body.style.transition = "5s";
   }
 
-  setInterval(changeBackground, 2500);
+  setInterval(changeBackground, 10000);
+  return(
+    <div className="glass bg-url['/italy.jpg']">.</div>
+  )
 };
 
 export default ImageChange;
