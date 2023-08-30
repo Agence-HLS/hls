@@ -3,25 +3,37 @@ import { render } from "react-dom";
 import Navbar from "@/components/layouts/HeaderD";
 import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Footer from "@/components/layouts/footermobile/footer";
+import Aos from "@/components/tools/aos";
+
 const client = () => {
   return (
     <main>
       <Navbar />
       <HeaderMobile />
-      
-      <section className="containblue py-28 ">
+      <Aos />
+      <section className="containblue grid-cols-1 py-24 p-6   ">
         {" "}
-        <div className=" flex justify-center my-5 lg:hidden">
-          <h1 className="uppercase flex-col h-full w-48 justify-center text-center items-center containwhite">
-            Nos clients
-          </h1>
-        </div>
-        <div className="containblue my-5">
+        <div className="containblue ">
+          <div className=" flex justify-center items-center  m-9 lg:m-2 text-center ">
+            <h1 className="uppercase flex-col my-4 h-full  lg: w-40  containwhite">
+              Nos clients
+            </h1>
+          </div>
           <div className="flex flex-col items-center ">
-            <div className="py-5">
-              <img src="/WORK2.jfif" height={100} width={170} />
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+              className="py-5"
+            >
+              <img
+                className="flex items-center p-5 "
+                src="/WORK2.jfif"
+                height={200}
+                width={270}
+              />
             </div>
-            <p className="py">
+            <p className="py-8 p-8">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure
               non provident voluptatibus sint magni perferendis rerum placeat
               ex, necessitatibus eos, nesciunt aut corporis vero id quaerat
@@ -29,15 +41,20 @@ const client = () => {
             </p>
           </div>
         </div>
-        <div className="my-5 flex justify-center rounded-full ">
-          <h1 className="uppercase flex-col h-full w-56 text-center items-center containwhite  ">
-            Ils nous font confiances
-          </h1>
-        </div>
-        <div className=" containblue w-full flex justify-center items-center ">
-          <div className=" grid grid-cols-1  space-y-10 py-10 justify-items-center">
+        <div className=" lg:my-16 containblue w-full  justify-center items-center ">
+          <div className="my-16 flex justify-center   rounded-full ">
+            <h1 className="uppercase flex-col h-full w-56 my-4 text-center items-center containwhite  ">
+              Ils nous font confiances
+            </h1>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="800"
+            className=" grid grid-cols space-y-10 py-10 justify-items-center"
+          >
             <div className="">
-              <img src="/ONLINE.png"  height={70} width={170} />
+              <img src="/ONLINE.png" height={70} width={170} />
             </div>
             <div>
               <img
@@ -48,12 +65,7 @@ const client = () => {
               />
             </div>
             <div>
-              <img
-                className=" "
-                src="/Micromania.png"
-                height={70}
-                width={170}
-              />
+              <img src="/Micromania.png" height={70} width={170} />
             </div>
             <div>
               <img src="/KAZE.png" height={40} width={100} />
@@ -70,44 +82,76 @@ const client = () => {
             <div>
               <img src="/WASTED.png" height={70} width={100} />
             </div>{" "}
-            <section className="containblue  flex x-10">
-              <div className="containwhite flex-col h-full w-full items-center">
+            <section
+              data-aos="zoom-in"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="containblue  "
+            >
+              <div className="containwhite  h-full lg:py-10 w-full items-center p-0.5 ">
                 <div className="  text-center ">
-                  <h1 className=" ">Nos Projets</h1>
+                  <h1 className="containwhite ">Nos Projets</h1>
                 </div>
-                <div className="flex flex-col-3 ml-6 h-36 space-x-10">
-                  <div>
+                <div className="flex flex-col-1 justify-center items-center pr-4 my ml-6 h-36 space-x-8 ">
+                  <div
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    data-aos-duration="1700"
+                  >
                     <img
                       className="py-4"
                       src="/SOUNDCLOUD2.png"
-                      height={75}
+                      height={100}
                       width={170}
                     />
-                    <button className=" text-center containwhite rounded-full bg-slate-400">
+                    <button
+                      href
+                      className=" text-center containwhite rounded-full bg-slate-400"
+                    >
                       Projet Haykel
                     </button>
                   </div>
 
-                  <div>
+                  <div
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    data-aos-duration="1500"
+                  >
                     <img
-                      className="py-4"
+                      className="py-3"
                       src="/SOUNDCLOUD2.png"
                       height={100}
                       width={170}
                     />
-                    <button className=" containwhite  text-center  rounded-full bg-slate-400">
+                    <button
+                      href=""
+                      className=" containwhite  text-center  rounded-full bg-slate-400"
+                    >
                       Projet SACKO
                     </button>
                   </div>
 
-                  <div>
+                  <div
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    data-aos-duration="1300"
+                  >
                     <img
                       className="py-4"
                       src="/SOUNDCLOUD2.png"
                       height={100}
-                      width={170}
+                      width={200}
                     />
-                    <button className=" containwhite  text-center  rounded-full bg-slate-400">
+                    <button
+                      href=""
+                      className=" containwhite  text-center  rounded-full bg-slate-400"
+                    >
                       Projet Lucas
                     </button>
                   </div>

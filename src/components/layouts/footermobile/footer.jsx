@@ -16,7 +16,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className=" py-4  bg-slate-500 text-black-300  justify-center  flex-auto">
+      <footer className=" py-4 contain-darkgrey text-black-300  justify-center  flex-auto">
        
 
         
@@ -25,20 +25,20 @@ const Footer = () => {
             </div>
 
         <section>
-          <div className="flex flex-col items-center py-10">
+          <div className="flex flex-col items-center ">
             <h1 className="uppercase font-bold">Suivez nous !</h1>
             <p className="text-xs text-center py-2 px-4">Ne manquez pas l'actualité en vous inscrivant à notre newsletter</p>
 
-            <form action="" className="flex flex-col items-center">
+            <form action="" className="grid grid-cols-1 items-center">
               <label htmlFor="">Votre adresse e-mail:</label>  
-              <div className="inline-flex justify-center ">
+              <div className="flex flex-col justify-center items-center text-center space-y-3 ">
                 <input type="email" placeholder="Adresse e-mail..." className="border rounded-full border-solid w-1/2.5 " />
-                <button className="pl-4 border rounded-full justify-center mx-2">Envoyer</button>
+                <button className=" border rounded-full containwhite w-20 ">Envoyer</button>
               </div>
             </form>
           </div>
-            <hr className="border-blue-600" />
-          <div className="grid grid-rows-3 pb-10">
+            
+          <div className="grid grid-rows-3 my-5">
             <div className="flex flex-col items-center">
               <FontAwesomeIcon
                 className=" text-blue-300"
