@@ -1,5 +1,6 @@
 import HeaderMobile from "@/components/layouts/HeaderMobile";
 import DemoCarousel from "@/app/carousel/homepage/page";
+import ImageChange from "@/components/tools/image change/image";
 
 const Introduction = () => {
   return (
@@ -7,6 +8,9 @@ const Introduction = () => {
       <HeaderMobile />
       <main className="dark:text-fuchsia-500 dark:bg-black flex hidden:lg flex flex-col">
         <section className="">
+          <div className="">
+            <ImageChange />
+          </div>
           <div className="flex flex-col items-center  w-full h-screen bg-no-repeat bg-cover bg-center ">
             <p className="pt-5 text-white">CTA projet</p>
           </div>
