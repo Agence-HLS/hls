@@ -1,67 +1,66 @@
-import HeaderMobile from "@/components/layouts/HeaderMobile";
-import DemoCarousel from "@/app/carousel/homepage/page";
-import ImageChange from "@/components/tools/image change/image";
+"use client";
 
+import DemoCarousel from "@/app/carousel/homepage/page";
+import "aos/dist/aos.css";
 const Introduction = () => {
   return (
     <>
-      <HeaderMobile />
-      <main className="dark:text-fuchsia-500 dark:bg-black flex hidden:lg flex flex-col">
-        <section className="">
-          <div className="my-32">
-            <ImageChange />
-          </div>
-          <div className="flex flex-col items-center  w-full h-screen bg-no-repeat bg-cover bg-center ">
-            <p className="pt-5 text-white">CTA projet</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <div>
-              <h1 className="flex flex-col items-center uppercase py-5 containblue">
+      <main className="dark:text-fuchsia-500 dark:bg-black  flex flex-col containblue ">
+        <section className=" mt-28 mx-2 lg:mx-96">
+          <div
+            className="flex flex-col items-center mx-2 lg:mx-10 containwhite mb-20"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
+            <div className="containblueblue py-2 px-20 lg:w-full text-center lg:grid lg:justify-items-center">
+              <h1 className="uppercase py-1 px-10 containwhite lg:py-1 lg:w-1/2">
                 titre
               </h1>
             </div>
-            <div className="flex flex-row items-center pt-10 mr-3">
-              <p className="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-              </p>
-
+            <div className="grid grid-cols-1 justify-items-center  mx-5  ">
               <img
                 src="/image.jfif"
                 alt="test"
-                width={150}
-                height={150}
-                className=""
+                width={300}
+                height={500}
+                className="my-5"
               />
+              <p className=" lg:mx-60 my-5">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptas amet consequuntur vel est similique quia animi rem
+                ratione cum praesentium? Doloremque corrupti neque veniam!
+                Voluptates repudiandae repellendus odio reiciendis ad!
+              </p>
             </div>
           </div>
-          <div className="pt-10  text-center">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-              minima repellat deleniti magni ullam obcaecati quia ipsa nisi
-              maiores error in iusto ducimus veniam vitae. Quae exercitationem
-              dolore aut rem!
-            </p>
-          </div>
-          <div className="flex flex-col items-center  pt-10">CTA</div>
-          <div>
-            <h2 className="flex flex-col items-center mx-6 uppercase glassblue">
-              titre
-            </h2>
-          </div>
-          <div className="flex flex-col items-center ">
+
+          <div
+            className="  flex flex-col items-center my-20 mx-2 lg:mx-10 containwhite"
+            data-aos="zoom-out"
+            data-aos-duration="6000"
+          >
+            <div className="containblueblue py-2 px-20 lg:w-full text-center lg:grid lg:justify-items-center">
+              <h1 className="uppercase py-1 px-10 containwhite lg:py-1 lg:w-1/2">
+                titre
+              </h1>
+            </div>
             <img src="/image.jfif" alt="test" className="" />
           </div>
-          <div className="mt-5">
-            <h2 className="flex flex-col items-center py-5 uppercase glassblue lg:mx-60">
-              nos expertises
-            </h2>
+          <div
+            className="lg:my-20 mx-2 lg:mx-10 mb-2 containwhite "
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div className=" containblueblue mb-5 py-3 px-20 lg:w-full lg:grid lg:justify-items-center">
+              <h1 className="flex flex-col items-center text-center uppercase containwhite px-5 lg:py-1 lg:w-1/2">
+                nos expertises
+              </h1>
+            </div>
+            <div className=" lg:mx-96">
+              <DemoCarousel />
+            </div>
           </div>
         </section>
-        <sections>
-          <div className=" lg:mx-60">
-            <DemoCarousel />
-          </div>
-        </sections>
       </main>
     </>
   );

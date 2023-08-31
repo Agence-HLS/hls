@@ -1,3 +1,5 @@
+// const { default: plugin } = require('tailwindcss/plugin')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,8 +14,27 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      
     },
   },
-  plugins: [],
+  plugins: [ 
+    // plugin=(containblue,) =>{
+
+      
+    //   containblue({
+    //     background: "rgba(26, 152, 177, 0.5)",
+    //     boxshadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+    //     backdropfilter: "blur(20px)",
+    //     webkitbackdropfilter: "blur(20px)",
+    //     borderradius: "10px",
+    //   })
+      
+    // }
+        
+      
+    
+
+  ],
   darkMode: "class",
 };
+
