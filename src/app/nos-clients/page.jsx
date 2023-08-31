@@ -24,10 +24,10 @@ const client = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="800"
-              className="py-5"
+              className="py-5 p-5 "
             >
               <img
-                className="flex items-center p-5 "
+                className="flex contain-darkgrey items-center "
                 src="/WORK2.jfif"
                 height={200}
                 width={270}
@@ -88,11 +88,12 @@ const client = () => {
               data-aos-easing="ease-in-sine"
               className="containblue  "
             >
-              <div className="containwhite  h-full lg:py-10 w-full items-center p-0.5 ">
-                <div className="  text-center ">
+              <div className="containwhite  h-full lg:py-10 w-50 ">
+                <div className="flex justify-center">
+                <div className=" mt-4 text-center w-32">
                   <h1 className="containwhite ">Nos Projets</h1>
-                </div>
-                <div className="flex flex-col-1 justify-center items-center pr-4 my ml-6 h-36 space-x-8 ">
+                </div></div>
+                <div className="flex flex-col-1 justify-center p-2 items-center  space-x-8 ">
                   <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back"
