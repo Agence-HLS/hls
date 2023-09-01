@@ -4,45 +4,45 @@ import { TypeAnimation } from "react-type-animation";
 
 const IntroAnimation = () => {
   return (
-    <div className="grid grid-cols-1 ">
-      <div className="text-start my-5">
+    <div className="grid grid-cols-1 my-5 lg:mx-10">
+      <div className="lg:text-start lg:my-5 text-center">
         <TypeAnimation
-          sequence={["site web responsive", 100]}
-          style={{}}
-          repeat={1}
+          sequence={["site web responsive,", 1000]}
+          wrapper="span"
+          speed={50}
+          style={{ display: "inline-block" }}
+          repeat={Infinity}
         />{" "}
       </div>{" "}
-      <div className="text-end my-5">
+      <div className="lg:text-end lg:my-5 text-center">
         <TypeAnimation
-          sequence={["dynamique", 100]}
-          style={{ fontSize: "1em" }}
-          repeat={1}
+          sequence={["dynamique,", 1000]}
+          wrapper="span"
+          speed={50}
+          style={{ display: "inline-block" }}
+          repeat={Infinity}
           className=""
         />{" "}
       </div>
-      <div className="text-start my-5">
+      <div className="lg:text-start lg:my-5 text-center">
         <TypeAnimation
-          sequence={["adapté a tout type d'écran", 100]}
-          style={{ fontSize: "1em" }}
-          repeat={1}
+          sequence={["adapté a tout type d'écran,", 1000]}
+          wrapper="span"
+          speed={50}
+          style={{ display: "inline-block" }}
+          repeat={Infinity}
           className=""
         />{" "}
       </div>{" "}
-      <div className="text-end my-5">
+      <div className="lg:text-end lg:my-5 text-center">
         <TypeAnimation
-          sequence={["contenu adapté", 100]}
-          style={{ fontSize: "1em" }}
-          repeat={1}
+          sequence={["contenu adapté,", 1000]}
+          wrapper="span"
+          speed={50}
+          style={{ display: "inline-block" }}
+          repeat={Infinity}
           className=""
         />{" "}
-      </div>{" "}
-      <div className="text-start my-5">
-        <TypeAnimation
-          sequence={["site web responsive", 100]}
-          style={{ fontSize: "1em" }}
-          repeat={1}
-          className=""
-        />
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ const Introduction = () => {
                 height={500}
                 className="my-5"
               />
-              <p className=" lg:mx-60 my-5">
+              <p className=" lg:mx-60 my-5 le text-xl">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Voluptas amet consequuntur vel est similique quia animi rem
                 ratione cum praesentium? Doloremque corrupti neque veniam!
@@ -35,7 +35,6 @@ const Introduction = () => {
               </p>
             </div>
           </div>
-
           <div
             className="  flex flex-col items-center my-20 mx-2  lg:mx-10 containwhite "
             data-aos="zoom-out"
@@ -54,8 +53,8 @@ const Introduction = () => {
                 alt="test"
                 className="py-20 "
               />
-              <div className=" text-4xl uppercase">
-                <Intro/>
+              <div className="text-xl lg:text-4xl uppercase">
+                <Intro />
               </div>
             </div>
           </div>
