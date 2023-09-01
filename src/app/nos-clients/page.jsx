@@ -5,7 +5,7 @@ import { render } from "react-dom";
 import Navbar from "@/components/layouts/HeaderD";
 import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Footer from "@/components/layouts/footermobile/footer";
-import Aos from "@/components/tools/aos";
+import Aos from "@/components/tools/aos/aos";
 
 const client = () => {
   return (

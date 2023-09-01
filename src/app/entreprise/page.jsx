@@ -13,14 +13,14 @@ const Entreprise = () => {
       <Anim/>
       {/*SOUS-TITRE  */}
       <main className=" flex flex-col">
-        <section className="dark:bg-black dark:text-[#eb6689] text-[#99ecef]">
+        <section className="dark:bg-black dark:text-white text-[#99ecef]">
 
-        <section   className="  containblue dark:containblueblue py-10">
+        <section   className="  dark:contain-darkbg    py-10">
           <div data-aos="flip-left" data-aos-offset="0"  className="flex justify-center">
 
-            <div className="dark:contain-darkpurple containblue lg:mt-10 mt-28 w-5/6">
+            <div className="dark:contain-darkviolet containblue lg:mt-10 mt-28 w-5/6">
             
-              <div className="flex justify-center p-4 containblueblue">
+              <div className="flex justify-center p-4 containblueblue dark:contain-test">
 
               <div data-aos="fade-down-left" data-aos-offset="0"  className=" flex flex-col items-center py-2 containwhite px-8 lg:px-40 ">
                 <h1 className="dark:text-white uppercase ">
@@ -53,9 +53,9 @@ const Entreprise = () => {
           {/* pourquoi nous */}
           <section className="">
             <div data-aos="flip-left" data-aos-offset="0"  className="flex justify-center my-10">
-              <div className="containblue dark:contain-darkpurple w-5/6">
+              <div className="containblue dark:contain-darkviolet w-5/6">
                 
- <div className="flex justify-center containblueblue  p-4" >
+ <div className="flex justify-center contain dark:contain-darkbg  p-4" >
 
             <div data-aos="fade-down-left" data-aos-offset="0" className="py-2 flex justify-center containwhite px-8 lg:px-40 ">
               <h1 className="dark:text-white uppercase  ">pourquoi nous?</h1>
@@ -90,11 +90,11 @@ const Entreprise = () => {
             <div data-aos="flip-left" data-aos-offset="0" data-aos-easing="ease-in-out-sine"  className="flex justify-center my-10">
 
 
-            <div className=" w-5/6 containblue dark:contain-darkpurple ">
-              <div className="containblueblue p-4">
+            <div className=" w-5/6 containblue dark:contain-darkviolet ">
+              <div className="dark:contain-test containblueblue p-4">
  <div className="flex justify-center">
 
-            <div data-aos="fade-down-left" data-aos-offset="0" className="p-2 containwhite flex justify-center py-2 px-8 lg:px-40 ">
+            <div data-aos="fade-down-left" data-aos-offset="0" className="p-2 containwhite  flex justify-center py-2 px-8 lg:px-40 ">
 
             
               <h1 className="uppercase dark:text-white">nos point fort</h1>
