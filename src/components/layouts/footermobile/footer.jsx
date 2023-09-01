@@ -16,117 +16,99 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-slate-500 text-black-300  justify-center lg:  md:bg-slate-400 md:flex-auto">
-        <section className="grid grid-cols-2 py-10">
-          <div className="flex flex-col items-center">
-            <FontAwesomeIcon
-              className="text-blue-300"
-              icon={faLinkedin}
-              width={30}
-              height={"auto"}
-            />
-            <h3 className="text-xs uppercase pt-2 pb-8">Linkedin</h3>
-          </div>
-          <div className="flex flex-col items-center">
-            <FontAwesomeIcon
-              className="text-blue-300"
-              icon={faGithub}
-              width={30}
-              height={"auto"}
-            />
-            <h3 className="text-xs uppercase pt-2 pb-8">GitHub</h3>
-          </div>
-          <div className="flex flex-col items-center">
-            <FontAwesomeIcon
-              className="text-blue-300"
-              alt="click"
-              icon={faBook}
-              width={30}
-              height={"auto"}
-            />
-            <h3 className="text-xs uppercase pt-2">Portfolio</h3>
-          </div>
-          <div className="flex flex-col items-center ">
-            <FontAwesomeIcon
-              className="text-blue-300"
-              icon={faFacebook}
-              width={30}
-              height={"auto"}
-            />
-            <h3 className="text-xs uppercase pt-2">Facebook</h3>
-          </div>
-        </section>
-
-        
-            <div className=" flex flex-col items-center  ">
-              <Image src="/black-logo.svg" width={200} height={200} alt="" />
-            </div>
-
-        <section>
-          <div className="flex flex-col items-center py-10">
-            <h1 className="uppercase font-bold">Suivez nous !</h1>
-            <p className="text-xs text-center py-2 px-4">Ne manquez pas l'actualité en vous inscrivant à notre newsletter</p>
-
-            <form action="" className="flex flex-col items-center">
-              <label htmlFor="">Votre adresse e-mail:</label>  
-              <div className="inline-flex justify-center ">
-                <input type="email" placeholder="Adresse e-mail..." className="border-solid w-1/2.5 " />
-                <button className="pl-4 ">Envoyer</button>
-              </div>
-            </form>
-          </div>
-            <hr className="border-blue-600" />
-          <div className="grid grid-rows-3 pb-10">
-            <div className="flex flex-col items-center">
+      <footer className=" containblue text-black-300  ">
+        <section className=" contain-darkgrey space-y-3">
+          <div className=" grid grid-cols-3 text-xs py-4 ">
+            <div className="flex flex-col items-center text-center ">
               <FontAwesomeIcon
                 className=" text-blue-300"
                 icon={faLocationDot}
                 width={20}
                 height={"auto"}
               />
-              <a className="text-center pt-4" href="">
-                30 Bd du Chevalier Bayard
-                <br />
-                77100 Meaux
-              </a>
             </div>
-            <div className="flex flex-col items-center">
-              <FontAwesomeIcon
-                className="text-blue-300"
-                icon={faPhone}
-                width={20}
-                height={"auto"}
-              />
-              <a className="text-center" href="">
-                01 43 89 52 23
-              </a>
-            </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center text-center">
               <FontAwesomeIcon
                 className=" text-blue-300"
                 icon={faEnvelope}
                 width={20}
                 height={"auto"}
               />
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <FontAwesomeIcon
+                className="text-blue-300"
+                icon={faPhone}
+                width={20}
+                height={"auto"}
+              />
+            </div>
+            <div className="space-x-5">
+              <a className="text-center " href="">
+                30 Bd du Chevalier Bayard
+                <br />
+                77100 Meaux
+              </a>
+              </div>
+              <div className="flex justify-center">
               <a className="text-center" href="">
+                01 43 89 52 23
+              </a>
+                </div>
+                <div className="flex justify-center text-xs">
+
+                <div className="py-2">
+              <a className="" href="">
                 Contact@Deep404.com
               </a>
+                </div>
+
             </div>
           </div>
-        </section>
+          <div className=" justify-center" >
+            <div className="flex flex-col items-center ">
+              <h1 className="uppercase font-bold">Suivez nous !</h1>
+              <div className=" ">
+                <Image src="/black-logo.svg" width={100} height={200} alt="" />
+              </div>
+              <p className="text-xs text-center ">
+                Ne manquez pas l'actualité en vous inscrivant à notre newsletter
+              </p>
 
-        <hr className="border-blue-300" />
-        <div className="py-6 text-sm flex flex-col items-center">
-          <Link href="">Mentions légales</Link>
-          <Link href="">Condition Génerale</Link>
-          <Link href="">Charte des cookies</Link>
-          <Link href="">Politique de confidentialité</Link>
-        </div>
-        <hr className="border-blue-300" />
-        <div className="flex flex-col items-center text-xs py-6">
-          <p>Agence Deep 404</p>
-          <p>&copy; Copyright - 2023</p>
-        </div>
+              <form
+                action=""
+                className=" items-center space-x-4 "
+              >
+                <label className="text-center" htmlFor="">
+                  Votre adresse e-mail:
+                </label>
+                <div className="  space-y-3 ">
+                  <input
+                    type="email"
+                    placeholder="Adresse e-mail..."
+                    className="border rounded-full border-solid w-20 "
+                  />
+                  <button className=" border rounded-full  containwhite w-20 ">
+                    Envoyer
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 items-center ">
+            <div className="  text-sm ">
+              <Link href="">Mentions légales</Link>
+              <Link href="">Condition Génerale</Link>
+              <Link href="">Charte des cookies</Link>
+              <Link href="">Politique de confidentialité</Link>
+            </div>
+
+            <div className="  text-xs py-6">
+              <p>Agence Deep 404</p>
+              <p>&copy; Copyright - 2023</p>
+            </div>
+          </div>{" "}
+        </section>
       </footer>
     </>
   );
