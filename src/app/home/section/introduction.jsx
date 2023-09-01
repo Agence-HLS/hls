@@ -1,7 +1,9 @@
 "use client";
 
+import Intro from "@/components/tools/animation text/introduction/data";
 import DemoCarousel from "@/app/carousel/homepage/page";
 import "aos/dist/aos.css";
+
 const Introduction = () => {
   return (
     <>
@@ -19,9 +21,9 @@ const Introduction = () => {
             </div>
             <div className="grid grid-cols-1 justify-items-center  mx-5  ">
               <img
-                src="/image.jfif"
+                src="/dw3.webp"
                 alt="test"
-                width={300}
+                width={750}
                 height={500}
                 className="my-5"
               />
@@ -35,7 +37,7 @@ const Introduction = () => {
           </div>
 
           <div
-            className="  flex flex-col items-center my-20 mx-2 lg:mx-10 containwhite"
+            className="  flex flex-col items-center my-20 mx-2  lg:mx-10 containwhite "
             data-aos="zoom-out"
             data-aos-duration="6000"
           >
@@ -44,7 +46,18 @@ const Introduction = () => {
                 titre
               </h1>
             </div>
-            <img src="/image.jfif" alt="test" className="" />
+            <div className="lg:grid lg:grid-cols-2">
+              <img
+                src="dw2.jfif"
+                width={600}
+                height={500}
+                alt="test"
+                className="py-20 "
+              />
+              <div className=" text-4xl uppercase">
+                <Intro/>
+              </div>
+            </div>
           </div>
           <div
             className="lg:my-20 mx-2 lg:mx-10 mb-2 containwhite "
@@ -56,7 +69,7 @@ const Introduction = () => {
                 nos expertises
               </h1>
             </div>
-            <div className=" lg:mx-96">
+            <div className=" lg:mx-20">
               <DemoCarousel />
             </div>
           </div>
