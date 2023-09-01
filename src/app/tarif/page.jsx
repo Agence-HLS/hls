@@ -11,14 +11,14 @@ const Entreprise = () => {
       <Anim/>
 
       <main className=" dark:bg-black dark:text-[#eb6689] text-[#99ecef] flex flex-col">
-        <section className="flex justify-center containblue dark:containblueblue pt-36 lg:p-10">
-          <section className="containblue dark:contain-darkgrey lg:w-5/6">
+        <section className="flex justify-center contain-bg dark:contain-darkbg pt-36 lg:p-10">
+          <section className="containblue dark:containblueblue lg:w-5/6">
             <div className="flex flex-col justify-center items-center ">
-              <div className="w-full containblueblue dark:contain-darkgrey">
+              <div className="w-full containblueblue dark:contain-test">
                 <div  className=" flex justify-center p-4">
-<div className="containwhite py-2 px-12 lg:px-40">
+<div className="contain-darkgrey py-2 px-12 lg:px-40">
 
-                  <h2 className="uppercase   dark:text-[#7129ff]">
+                  <h2 className="uppercase   dark:text-[#a271fd]">
                     nos offres
                   </h2>
 </div>
@@ -34,7 +34,7 @@ const Entreprise = () => {
               
               <div  className="flex justify-center">
                   <div data-aos="fade-down-right" className="containblueblue dark:contain-darkgrey w-1/2 lg:w-1/3 p-2">
-                    <h2 className=" dark:text-[#a271fd] uppercase * text-center ">
+                    <h2 className=" dark:text-gray-300 uppercase * text-center ">
                       offres nouveaux client
                     </h2>
                   </div>
@@ -44,7 +44,7 @@ const Entreprise = () => {
                 <div data-aos="zoom-out-down"  className=" lg:grid lg:grid-cols-2">
                   <div  className=" px-10 py-10">
                     <div className="py-5">
-                      <div className="flex justify-center p-2  text-[#1d56b8] dark:text-white containwhite dark:containblueblue">
+                      <div className="flex justify-center p-2  text-[#1d56b8] dark:text-white containwhite dark:contain-darkviolet">
                         <h1>Eco</h1>
                       </div>
                     </div>
@@ -59,7 +59,7 @@ const Entreprise = () => {
                   </div>
                   <div className="p-10 ">
                     <div className="py-5">
-                      <div className="flex justify-center p-2 text-[#1d56b8] dark:text-white containwhite dark:containblueblue">
+                      <div className="flex justify-center p-2 text-[#1d56b8] dark:text-white containwhite dark:contain-darkviolet">
                         <h1>Luxe</h1>
                       </div>
                     </div>
@@ -73,7 +73,7 @@ const Entreprise = () => {
                     </div>
                   </div>
                 </div>
-                <div data-aos="flip-left" data-aos-offset="0"  className="flex justify-center dark:text-[#a271fd] text-[#1d56b8]">
+                <div data-aos="flip-left" data-aos-offset="0"  className="flex justify-center  dark:text-gray-300 text-[#1d56b8]">
                   <button
                     type="button"
                     onClick={console.log("Abonnement")}
@@ -87,7 +87,7 @@ const Entreprise = () => {
             <div className="flex flex-col pt-40 ">
               <div className="flex justify-center">
                 <div data-aos="fade-down-right"   className="containblueblue dark:contain-darkgrey w-1/2 lg:w-1/3 p-2">
-                  <h2 className=" uppercase text-center dark:text-[#a271fd] ">
+                  <h2 className=" uppercase text-center  dark:text-gray-300 ">
                     offres d'abonnement
                   </h2>
                 </div>
@@ -96,7 +96,7 @@ const Entreprise = () => {
                 <div data-aos="zoom-out-down" className=" lg:grid lg:grid-cols-2">
                   <div className=" px-10 py-10 ">
                     <div className="py-5">
-                      <div className="flex justify-center p-2 dark:text-white text-[#1d56b8] containwhite dark:containblueblue">
+                      <div className="flex justify-center p-2 dark:text-white text-[#1d56b8] containwhite dark:contain-darkviolet">
                         <h1>Eco</h1>
                       </div>
                     </div>
@@ -111,7 +111,7 @@ const Entreprise = () => {
                   </div>
                   <div className="p-10 ">
                     <div className="py-5">
-                      <div className="flex justify-center p-2 dark:text-white text-[#1d56b8] containwhite dark:containblueblue">
+                      <div className="flex justify-center p-2 dark:text-white text-[#1d56b8] containwhite dark:contain-darkviolet">
                         <h1>Luxe</h1>
                       </div>
                     </div>
@@ -125,7 +125,7 @@ const Entreprise = () => {
                     </div>
                   </div>
                 </div>
-                <div data-aos="flip-left" className="pb-20 flex justify-center dark:text-[#a271fd] text-[#1d56b8]">
+                <div data-aos="flip-left" className="pb-20 flex justify-center  dark:text-gray-300 text-[#1d56b8]">
                   <button
                     type="button"
                     onClick={console.log("Abonnement")}

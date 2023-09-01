@@ -1,16 +1,16 @@
 let styles = {
   bmBurgerButton: {
     position: "fixed",
-    width: "20px",
-    height: "20px",
-    left: "35px",
-    top: "43px",
+    width: "35px",
+    height: "25px",
+    left: "20px",
+    top: "30px",
   },
   bmBurgerBars: {
-    background: "#17DDFF",
+    background: "#000000",
   },
   bmBurgerBarsHover: {
-    background: "#0097B2",
+    background: "#000000",
   },
   bmCrossButton: {
     height: "24px",
