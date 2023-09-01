@@ -53,3 +53,8 @@
         -webkit-backdrop-filter: blur( 6.5px );
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );}
+
+
+    .bg-containfooter {background: #6800ca;
+        background: -webkit-linear-gradient(149deg, #6800ca 0%, rgba(8, 7, 7, 0.84) 50%, #8649c7 100%);
+        background: linear-gradient(149deg, #6800ca 0%, rgba(8, 7, 7, 0.84) 50%, #8649c7 100%);}
