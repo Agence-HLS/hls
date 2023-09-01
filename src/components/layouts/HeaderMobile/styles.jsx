@@ -1,5 +1,4 @@
-import { Content } from "next/font/google";
-export let styles = {
+let styles = {
   bmBurgerButton: {
     position: "fixed",
     width: "20px",
@@ -43,3 +42,4 @@ export let styles = {
     background: "rgba(0, 0, 0, 0.3)",
   },
 };
+export default styles;

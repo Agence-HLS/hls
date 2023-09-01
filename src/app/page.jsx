@@ -14,6 +14,10 @@ export default function () {
       <Home />
       <Footer />
       <Image />
+      <render/>
+
+
+
     </>
   );
 }

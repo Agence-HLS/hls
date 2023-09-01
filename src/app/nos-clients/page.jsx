@@ -1,3 +1,5 @@
+ "use client"
+
 import Link from "next/link";
 import { render } from "react-dom";
 import Navbar from "@/components/layouts/HeaderD";

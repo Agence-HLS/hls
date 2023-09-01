@@ -6,7 +6,7 @@ import Anim from "@/components/tools/aos/aos";
 const Entreprise = () => {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <HeaderMobile />
       <Anim/>
 
