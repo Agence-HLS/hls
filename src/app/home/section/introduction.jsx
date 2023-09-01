@@ -1,6 +1,7 @@
 "use client";
 
-import Intro from "@/components/tools/animation text/introduction/data";
+import TextAnimate from "@/components/tools/animation text/introduction/data";
+import Intro from "@/components/tools/animation text/introduction/data2";
 import DemoCarousel from "@/app/carousel/homepage/page";
 import "aos/dist/aos.css";
 
@@ -19,24 +20,23 @@ const Introduction = () => {
                 titre
               </h1>
             </div>
-            <div className="grid grid-cols-1 justify-items-center  mx-5  ">
+            <div className="grid grid-cols-1 justify-items-center  mx-5 lg:grid-cols-2 ">
+              <div className="my-5  lg:mx-16 lg:text-4xl">
+                <TextAnimate />
+              </div>
               <img
                 src="/dw3.webp"
                 alt="test"
                 width={750}
                 height={500}
                 className="my-5"
+                data-aos="fade-up"
+                data-aos-duration="3000"
               />
-              <p className=" lg:mx-60 my-5 le text-xl">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptas amet consequuntur vel est similique quia animi rem
-                ratione cum praesentium? Doloremque corrupti neque veniam!
-                Voluptates repudiandae repellendus odio reiciendis ad!
-              </p>
             </div>
           </div>
           <div
-            className="  flex flex-col items-center my-20 mx-2  lg:mx-10 containwhite "
+            className="  flex flex-col items-center my-20 mx-2   containwhite "
             data-aos="zoom-out"
             data-aos-duration="6000"
           >
