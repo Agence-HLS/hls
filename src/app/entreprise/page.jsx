@@ -55,7 +55,7 @@ const Entreprise = () => {
             <div data-aos="flip-left" data-aos-offset="0"  className="flex justify-center my-10">
               <div className="containblue dark:contain-darkviolet w-5/6">
                 
- <div className="flex justify-center contain dark:contain-darkbg  p-4" >
+ <div className="flex justify-center contain dark:contain-test  p-4" >
 
             <div data-aos="fade-down-left" data-aos-offset="0" className="py-2 flex justify-center containwhite px-8 lg:px-40 ">
               <h1 className="dark:text-white uppercase  ">pourquoi nous?</h1>
