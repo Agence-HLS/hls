@@ -4,12 +4,23 @@ import TextAnimate from "@/components/tools/animation text/introduction/data";
 import Intro from "@/components/tools/animation text/introduction/data2";
 import DemoCarousel from "@/app/carousel/homepage/page";
 import "aos/dist/aos.css";
+import Animation from "@/components/tools/animation text/introduction/data3";
+import By from "@/components/tools/animation text/introduction/data4";
 
 const Introduction = () => {
   return (
     <>
       <main className="dark:text-fuchsia-500 dark:bg-black  flex flex-col containblue ">
-        <section className=" mt-28 mx-2 lg:mx-96">
+        <div className=" w-full h-screen bg-[url('/deep.jpg')]  bg-no-repeat bg-cover bg-center pt-5 font-ocean outline-cyan-50">
+          <p className="text-9xl uppercase">deep 404</p>
+          <div className="grid justify-items-center py-20 px-96 m text-5xl ">
+            <Animation />
+          </div>
+          <div className="grid justify-items-end mt-32 py-20 ml-24 px-96 m text-5xl ">
+            <By />
+          </div>
+        </div>
+        <section className=" mt-15 mx-2 lg:mx-96">
           <div
             className="flex flex-col items-center mx-2 lg:mx-10 containwhite mb-20"
             data-aos="fade-down"
@@ -51,7 +62,7 @@ const Introduction = () => {
                 width={600}
                 height={500}
                 alt="test"
-                className="py-20 "
+                className="px-10 py-20 "
               />
               <div className="text-xl lg:text-4xl uppercase">
                 <Intro />

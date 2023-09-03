@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-face {
+  font-family: "Ocean";
+  src: url("../fonts/ocean/ocean.ttf") format("truetype");
+}
+
+.glass {
+  background: rgba(28, 210, 245, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-1 {
+  background: rgba(28, 210, 245, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 159px;
+  height: 199px;
+}
+
+.glass-2 {
+  background: rgba(28, 210, 245, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+a {
+  display: inline;
+  position: relative;
+  text-decoration: none;
+}
+
+a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  width: 0%;
+  left: 0px;
+  height: 2px;
+  transition: 0.25s cubic-bezier(0.72, -0.01, 0.19, 0.92);
+  background: #7bf600;
+}
+
+a:hover:after {
+  width: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.neon {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #e8f73a,
+    0 0 82px #e8f73a, 0 0 92px #e8f73a, 0 0 102px #e8f73a, 0 0 151px #e8f73a;
+}
