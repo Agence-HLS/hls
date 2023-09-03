@@ -16,79 +16,115 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className=" py-4  bg-slate-500 text-black-300  justify-center  flex-auto">
-       
-
-        
-            <div className=" flex justify-center  ">
-              <Image src="/black-logo.svg" width={100} height={200} alt="" />
-            </div>
-
-        <section>
-          <div className="flex flex-col items-center py-10">
-            <h1 className="uppercase font-bold">Suivez nous !</h1>
-            <p className="text-xs text-center py-2 px-4">Ne manquez pas l'actualité en vous inscrivant à notre newsletter</p>
-
-            <form action="" className="flex flex-col items-center">
-              <label htmlFor="">Votre adresse e-mail:</label>  
-              <div className="inline-flex justify-center ">
-                <input type="email" placeholder="Adresse e-mail..." className="border rounded-full border-solid w-1/2.5 " />
-                <button className="pl-4 border rounded-full justify-center mx-2">Envoyer</button>
+      <footer className=" dark:bg-containfooter bg-containblue containwhite p-5 text-black-300  ">
+        <section className="contain-darkgrey my-10 py-7 text-purple-100">
+          <div className=" text-xs p-0.5 ">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              className="grid grid-cols-3  py-5 my-5"
+            >
+              <div className="text-center items-center ">
+                <FontAwesomeIcon
+                  className=" text-white"
+                  icon={faLocationDot}
+                  width={20}
+                  height={"auto"}
+                />
               </div>
-            </form>
-          </div>
-            <hr className="border-blue-600" />
-          <div className="grid grid-rows-3 pb-10">
-            <div className="flex flex-col items-center">
-              <FontAwesomeIcon
-                className=" text-blue-300"
-                icon={faLocationDot}
-                width={20}
-                height={"auto"}
-              />
-              <a className="text-center pt-4" href="">
-                30 Bd du Chevalier Bayard
-                <br />
-                77100 Meaux
-              </a>
-            </div>
-            <div className="flex flex-col my-5 items-center">
-              <FontAwesomeIcon
-                className="text-blue-300"
-                icon={faPhone}
-                width={20}
-                height={"auto"}
-              />
-              <a className="text-center" href="">
-                01 43 89 52 23
-              </a>
-            </div>
-            <div className="flex flex-col items-center">
-              <FontAwesomeIcon
-                className=" text-blue-300"
-                icon={faEnvelope}
-                width={20}
-                height={"auto"}
-              />
-              <a className="text-center" href="">
-                Contact@Deep404.com
-              </a>
-            </div>
-          </div>
-        </section>
+              <div className="items-center text-center">
+                <FontAwesomeIcon
+                  className=" text-white"
+                  icon={faEnvelope}
+                  width={20}
+                  height={"auto"}
+                />
+              </div>
+              <div className="items-center text-center">
+                <FontAwesomeIcon
+                  className="text-white"
+                  icon={faPhone}
+                  width={20}
+                  height={"auto"}
+                />
+              </div>
 
-        <hr className="border-blue-300" />
-        <div className="py-6 text-sm flex flex-col items-center">
-          <Link href="">Mentions légales</Link>
-          <Link href="">Condition Génerale</Link>
-          <Link href="">Charte des cookies</Link>
-          <Link href="">Politique de confidentialité</Link>
-        </div>
-        <hr className="border-blue-300" />
-        <div className="flex flex-col items-center text-xs py-6">
-          <p>Agence Deep 404</p>
-          <p>&copy; Copyright - 2023</p>
-        </div>
+              <div className="flex justify-center text-purple-100 ">
+                <a className="text-center " href="">
+                  30 Bd du Chevalier Bayard
+                  <br />
+                  77100 Meaux
+                </a>
+              </div>
+              <div className="flex justify-center ">
+                <a className="text-center" href="">
+                  01 43 89 52 23
+                </a>
+              </div>
+              <div className=" text-xs py-2">
+                <p className="text-center" href="">
+                  Contact @Deep404.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            className=" justify-center"
+          >
+            <div className="flex flex-col items-center ">
+              <h1 className="uppercase containblue w-36 text-center font-bold">
+                Suivez nous !
+              </h1>
+              <div className=" ">
+                <Image src="/black-logo.svg" width={100} height={200} alt="" />
+              </div>
+              <p className="text-xs text-center ">
+                Ne manquez pas l'actualité en vous inscrivant à notre newsletter
+              </p>
+
+              <form action="" className=" grid grid-cols items-center  ">
+                <label className="text-center py-5" htmlFor="">
+                  Votre adresse e-mail:
+                </label>
+                <div className=" flex flex-col items-center space-y-3 mx-5 ">
+                  <input
+                    type="email"
+                    placeholder="Adresse e-mail..."
+                    className="border rounded-full border-solid  "
+                  />
+                  <button className="  rounded-full  containblue w-20 ">
+                    Envoyer
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div className=" flex justify-center my-5">
+            <div className="flex flex-col items-center ">
+              <div
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+                className="grid grid-cols my-5 p-2 space-x-1 text-sm "
+              >
+                <Link href="">Mentions légales</Link>
+                <Link href="">Condition Génerale</Link>
+                <Link href="">Charte des cookies</Link>
+                <Link href="">Politique de confidentialité</Link>
+              </div>
+
+              <div className=" text-xs py-5">
+                <p className="py-5">Agence Deep 404</p>
+                <p>&copy; Copyright - 2023</p>
+              </div>
+            </div>
+          </div>{" "}
+        </section>
       </footer>
     </>
   );
