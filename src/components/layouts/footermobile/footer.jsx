@@ -16,7 +16,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className=" bg-containfooter containwhite p-5 text-black-300  ">
+      <footer className=" dark:bg-containfooter bg-containblue containwhite p-5 text-black-300  ">
         <section className="contain-darkgrey my-10 py-7 text-purple-100">
           <div className=" text-xs p-0.5 ">
             <div
@@ -56,7 +56,7 @@ const Footer = () => {
                   77100 Meaux
                 </a>
               </div>
-              <div className=" ">
+              <div className="flex justify-center ">
                 <a className="text-center" href="">
                   01 43 89 52 23
                 </a>

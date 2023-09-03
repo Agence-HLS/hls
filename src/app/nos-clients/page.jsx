@@ -39,10 +39,9 @@ const client = () => {
                 />
               </div>
               <p className="py-8 p-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                iure non provident voluptatibus sint magni perferendis rerum
-                placeat ex, necessitatibus eos, nesciunt aut corporis vero id
-                quaerat pariatur distinctio. Architecto?
+                Avec plus de 400 plateformes sur-mesure livrées à un panel varié
+                de clients à travers le monde, nous avons acquis l’expérience
+                nécessaire pour garantir le succès de votre activité en ligne.
               </p>
             </div>
           </div>
@@ -57,7 +56,7 @@ const client = () => {
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="800"
-            className=" grid grid-cols space-y-10 py-10 justify-items-center"
+            className=" grid grid-cols lg:grid grid-cols-2 lg:items-center space-y-10 py-10 justify-items-center"
           >
             <div className="">
               <img src="/ONLINE.png" height={70} width={170} />
@@ -94,74 +93,76 @@ const client = () => {
               data-aos-easing="ease-in-sine"
               className="containblue  "
             >
-              <div className="containwhite  h-full lg:py-10 w-50 ">
-                <div className="flex justify-center">
-                  <div className=" mt-4 text-center w-32">
-                    <h1 className="containwhite ">Nos Projets</h1>
+              <div className="lg:flex justify-center">
+                <div className="containwhite lg:grid grid-cols-1 h-full lg:py-10 w-50 ">
+                  <div className="flex justify-center">
+                    <div className=" mt-4 text-center w-32">
+                      <h1 className="containwhite ">Nos Projets</h1>
+                    </div>
                   </div>
-                </div>
-                <div className="flex flex-col-1 justify-center p-2 items-center  space-x-8 ">
-                  <div
-                    data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-delay="300"
-                    data-aos-offset="0"
-                    data-aos-duration="1700"
-                  >
-                    <img
-                      className="py-4"
-                      src="/SOUNDCLOUD2.png"
-                      height={100}
-                      width={170}
-                    />
-                    <button
-                      href
-                      className=" text-center containwhite rounded-full bg-slate-400"
+                  <div className="flex flex-col-1 justify-center p-2 items-center  space-x-8 ">
+                    <div
+                      data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      data-aos-duration="1700"
                     >
-                      Projet Haykel
-                    </button>
-                  </div>
+                      <img
+                        className="py-4"
+                        src="/SOUNDCLOUD2.png"
+                        height={100}
+                        width={170}
+                      />
+                      <button
+                        href
+                        className=" text-center containwhite rounded-full bg-slate-400"
+                      >
+                        Projet Haykel
+                      </button>
+                    </div>
 
-                  <div
-                    data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-delay="300"
-                    data-aos-offset="0"
-                    data-aos-duration="1500"
-                  >
-                    <img
-                      className="py-3"
-                      src="/SOUNDCLOUD2.png"
-                      height={100}
-                      width={170}
-                    />
-                    <button
-                      href=""
-                      className=" containwhite  text-center  rounded-full bg-slate-400"
+                    <div
+                      data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      data-aos-duration="1500"
                     >
-                      Projet SACKO
-                    </button>
-                  </div>
+                      <img
+                        className="py-3"
+                        src="/SOUNDCLOUD2.png"
+                        height={100}
+                        width={170}
+                      />
+                      <button
+                        href=""
+                        className=" containwhite  text-center  rounded-full bg-slate-400"
+                      >
+                        Projet SACKO
+                      </button>
+                    </div>
 
-                  <div
-                    data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-delay="300"
-                    data-aos-offset="0"
-                    data-aos-duration="1300"
-                  >
-                    <img
-                      className="py-4"
-                      src="/SOUNDCLOUD2.png"
-                      height={100}
-                      width={200}
-                    />
-                    <button
-                      href=""
-                      className=" containwhite  text-center  rounded-full bg-slate-400"
+                    <div
+                      data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      data-aos-duration="1300"
                     >
-                      Projet Lucas
-                    </button>
+                      <img
+                        className="py-4"
+                        src="/SOUNDCLOUD2.png"
+                        height={100}
+                        width={200}
+                      />
+                      <button
+                        href=""
+                        className=" containwhite  text-center  rounded-full bg-slate-400"
+                      >
+                        Projet Lucas
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
