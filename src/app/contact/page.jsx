@@ -16,13 +16,8 @@ const Contact = () => {
       <HeaderMobile />
       <Navbar />
       <Aos />
-<<<<<<< HEAD
       <main className="dark:bg-black contain-bg  dark:contain-darkbg dark:text-fuchsia-500 grid grid-cols-1">
         <section className="  w-full">
-=======
-      <main className="dark:bg-black dark:containblueblue containblue dark:text-fuchsia-500 grid grid-cols-1">
-        <section className=" containblue p-5 w-full">
->>>>>>> baa0d497b265d91d41289cb5416b84738001219a
           <section
             data-aos="fade-up"
             data-aos-anchor-placement="center-center"
