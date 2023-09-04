@@ -143,10 +143,10 @@ const client = () => {
               data-aos="zoom-in"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
-              className="containblue  "
+              className="containblue  flex-col justify-items-center"
             >
-              <div className="lg:flex justify-center">
-                <div className="containwhite lg:grid grid-cols-1 h-full lg:py-10 w-50 ">
+              <div className="grid grid-cols-1">
+                <div className="containwhite  h-full lg:py-10 w-50 ">
                   <div className="flex justify-center">
                     <div className=" mt-4 text-center w-32">
                       <h1 className="containwhite ">Nos Projets</h1>

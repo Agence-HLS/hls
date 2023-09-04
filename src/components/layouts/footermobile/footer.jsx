@@ -80,7 +80,7 @@ const Footer = () => {
                 Suivez nous !
               </h1>
               <div className=" ">
-                <Image src="/black-logo.svg" width={100} height={200} alt="" />
+                <Image src="/white-logo.svg" width={100} height={200} alt="" />
               </div>
               <p className="text-xs text-center ">
                 Ne manquez pas l'actualité en vous inscrivant à notre newsletter
