@@ -5,7 +5,11 @@ import { render } from "react-dom";
 import Navbar from "@/components/layouts/HeaderD";
 import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Footer from "@/components/layouts/footermobile/footer";
+<<<<<<< HEAD
 import ClientsCarousel from "../carousel/client/client";
+=======
+import Aos from "@/components/tools/aos/aos";
+>>>>>>> 5bba87c157024853a115bd3ee8510e3c08ebae1b
 
 const client = () => {
 
