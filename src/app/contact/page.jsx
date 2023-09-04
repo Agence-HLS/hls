@@ -16,7 +16,7 @@ const Contact = () => {
       <HeaderMobile />
       <Navbar />
       <Aos />
-      <main className="dark:bg-black contain-bg  dark:contain-darkbg dark:text-fuchsia-500 grid grid-cols-1">
+      <main className="dark:bg-black contain-bg  dark:contain-darkbg dark:text-fuchsia-500 grid grid-cols-1 ">
         <section className="  w-full">
           <section
            
@@ -36,7 +36,7 @@ const Contact = () => {
                   </h1>
                 </div>
               </div>
-              <div className="p-5 flex justify-center">
+              <div className="p-5 text-[#99ecef] flex justify-center">
                 <h2 id="text-color">
                   Nous sommes ravis que vous souhaiteriez entrer en contact avec
                   nous.N&apos;hesitez pas a nous contacter en remplissant le
@@ -68,7 +68,7 @@ const Contact = () => {
             <div className="containblue py-10">
               <form action="" className=" items-center flex flex-col ">
                 {/* La div représente un bloc avec un grid en 2 colonne */}
-                <div className="grid grid-cols-1 space-y-5">
+                <div className="grid grid-cols-1 text-[#99ecef] lg:grid grid-cols-2 lg:space-y-0.5 space-y-5">
                   {/* Colonne 1 */}
                   <div className="flex flex-col  items-center ">
                     <label htmlFor="" className="">
@@ -106,7 +106,7 @@ const Contact = () => {
                       />
                   </div>
                 </div>
-                <div className="flex flex-col items-center py-5 my-4  pt-4">
+                <div className=" text-[#99ecef] flex flex-col items-center py-5 my-4  pt-4">
                   <label htmlFor="" className="">
                     Objet du message:
                   </label>

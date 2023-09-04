@@ -11,7 +11,7 @@ const client = () => {
       <Navbar />
       <HeaderMobile />
       <Aos />
-      <section className=" dark:text-[#eb6689] containblue dark:contain-darkbg grid-cols-1 py-24 p-6   ">
+      <section className=" dark:text-[#eb6689] text-[#3749a3a6] containblue dark:contain-darkbg grid-cols-1 py-24 p-6   ">
         {" "}
         <div className="containblue rounded-xl dark:contain-darkgrey">
           <div
