@@ -13,7 +13,7 @@ const Entreprise = () => {
       <Anim/>
       {/*SOUS-TITRE  */}
       <main className=" flex flex-col">
-        <section className="dark:bg-black dark:text-white text-[#99ecef]">
+        <section className="dark:bg-black dark:dark:text-[#eb6689] text-[#99ecef]">
 
         <section   className=" contain-bg dark:contain-test   py-10">
           <div data-aos="flip-left" data-aos-offset="0"  className="flex justify-center">
@@ -23,7 +23,7 @@ const Entreprise = () => {
               <div className="flex justify-center p-4 containblueblue dark:contain-darkbg">
 
               <div data-aos="fade-down-left" data-aos-offset="0"  className=" flex flex-col items-center py-2 contain-darkgrey px-8 lg:px-40 ">
-                <h1 className="dark:text-white uppercase ">
+                <h1 className="dark:text-gray-300 uppercase ">
                   A propos de nous
                 </h1>
               </div>
@@ -31,7 +31,7 @@ const Entreprise = () => {
                 
               <div className=" dark:contain-darkgrey containblue  ">
                 <div className="flex justify-center pt-5">
-                  <h2>Présentations</h2>
+                  <h2 className="text-white">Présentations</h2>
                 </div>
                 <div className="flex flex-col items-center pt-3">
                   <Image
@@ -58,7 +58,7 @@ const Entreprise = () => {
  <div className="flex justify-center contain dark:contain-darkbg containblueblue  p-4" >
 
             <div data-aos="fade-down-left" data-aos-offset="0" className="py-2 flex justify-center contain-darkgrey px-8 lg:px-40 ">
-              <h1 className="dark:text-white uppercase  ">pourquoi nous?</h1>
+              <h1 className="dark:text-gray-300 uppercase  ">pourquoi nous?</h1>
  </div>
             </div>
             <div className="containblue dark:contain-darkgrey  ">
@@ -97,7 +97,7 @@ const Entreprise = () => {
             <div data-aos="fade-down-left" data-aos-offset="0" className="p-2 contain-darkgrey  flex justify-center py-2 px-8 lg:px-40 ">
 
             
-              <h1 className="uppercase dark:text-white">nos point fort</h1>
+              <h1 className="uppercase dark:text-gray-300">nos point fort</h1>
             </div>
               </div>
  </div>

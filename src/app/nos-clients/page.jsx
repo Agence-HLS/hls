@@ -11,17 +11,17 @@ const client = () => {
       <Navbar />
       <HeaderMobile />
       <Aos />
-      <section className="containblue grid-cols-1 py-24 p-6   ">
+      <section className=" dark:text-[#eb6689] containblue dark:contain-darkbg grid-cols-1 py-24 p-6   ">
         {" "}
-        <div className="containblue ">
+        <div className="containblue rounded-xl dark:contain-darkgrey">
           <div
             data-aos="fade-zoom-in"
             data-aos-anchor-placement="top-bottom"
             data-aos-delay="300"
             data-aos-offset="0"
           >
-            <div className=" flex justify-center items-center  m-9 lg:m-2 text-center ">
-              <h1 className="uppercase flex-col my-4 h-full  lg: w-40  containwhite">
+            <div className=" flex justify-center items-center containblue dark:contain-test rounded-xl text-center ">
+              <h1 className="uppercase flex-col my-4 h-full  lg: w-40  dark:contain-darkgrey dark:text-gray-300 containwhite">
                 Nos clients
               </h1>
             </div>
@@ -47,12 +47,15 @@ const client = () => {
             </div>
           </div>
         </div>
-        <div className=" lg:my-16 containblue w-full  justify-center items-center ">
-          <div className="my-16 flex justify-center   rounded-full ">
-            <h1 className="uppercase flex-col h-full w-56 my-4 text-center items-center containwhite  ">
+        <div className="py-16">
+
+        <div className="  rounded-xl containblue dark:contain-darkgrey w-full  justify-center items-center ">
+          <div className="flex justify-center dark:contain-test   rounded-xl ">
+            <h1 className="uppercase flex-col dark:text-gray-300 h-full w-56 my-4 text-center items-center dark:contain-darkgrey containwhite  ">
               Ils nous font confiances
             </h1>
           </div>
+
           <div
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
@@ -92,14 +95,18 @@ const client = () => {
               data-aos="zoom-in"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
-              className="containblue  flex-col justify-items-center"
+              className=" containblue rounded-xl flex-col justify-items-center"
             >
               <div className="grid grid-cols-1">
-                <div className="containwhite  h-full lg:py-10 w-50 ">
-                  <div className="flex justify-center">
-                    <div className=" mt-4 text-center w-32">
-                      <h1 className="containwhite ">Nos Projets</h1>
+                <div className="containwhite dark:containpurple  h-full w-50 ">
+                  <div className="dark:contain-test rounded-xl">
+
+                  <div className="flex justify-center ">
+      
+                    <div className="my-4  text-center ">
+                      <h1 className="containwhite dark:contain-darkgrey dark:text-gray-300 ">Nos Projets</h1>
                     </div>
+                  </div>
                   </div>
                   <div className="flex flex-col-1 justify-center p-2 items-center  space-x-8 ">
                     <div
@@ -108,7 +115,7 @@ const client = () => {
                       data-aos-delay="300"
                       data-aos-offset="0"
                       data-aos-duration="1700"
-                    >
+                      >
                       <img
                         className="py-4"
                         src="/SOUNDCLOUD2.png"
@@ -117,7 +124,7 @@ const client = () => {
                       />
                       <button
                         href
-                        className=" text-center containwhite rounded-full bg-slate-400"
+                        className="dark:text-gray-300 text-center containwhite rounded-full bg-slate-400"
                       >
                         Projet Haykel
                       </button>
@@ -138,7 +145,7 @@ const client = () => {
                       />
                       <button
                         href=""
-                        className=" containwhite  text-center  rounded-full bg-slate-400"
+                        className="dark:text-gray-300 containwhite  text-center  rounded-full bg-slate-400"
                       >
                         Projet SACKO
                       </button>
@@ -159,7 +166,7 @@ const client = () => {
                       />
                       <button
                         href=""
-                        className=" containwhite  text-center  rounded-full bg-slate-400"
+                        className="dark:text-gray-300 containwhite  text-center  rounded-full bg-slate-400"
                       >
                         Projet Lucas
                       </button>
@@ -169,6 +176,7 @@ const client = () => {
               </div>
             </section>
           </div>
+                      </div>
         </div>
       </section>
       <Footer />

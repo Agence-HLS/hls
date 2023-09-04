@@ -10,7 +10,7 @@ import By from "@/components/tools/animation text/introduction/data4";
 const Introduction = () => {
   return (
     <>
-      <main className="dark:text-fuchsia-500 dark:bg-black  contain-bg flex flex-col containblue ">
+      <main className="dark:text-fuchsia-500 dark:bg-black  contain-bg flex flex-col dark:contain-darkbg containblue ">
         <div className="mt-28 lg:mt-0 w-full h-screen bg-[url('/deep.jpg')]  bg-no-repeat bg-cover bg-center pt-5 font-ocean outline-cyan-50">
           <h1 className="text-3xl lg:text-9xl uppercase">deep 404</h1>
           <div className="text-xl mx-10 my-32 lg:grid lg:justify-items-center lg:py-20 lg:px-96 lg:text-5xl ">
@@ -22,12 +22,12 @@ const Introduction = () => {
         </div>
         <section className="my-10 mt-15 mx-2 lg:mx-96">
           <div
-            className="flex flex-col items-center mx-2 lg:mx-10 containwhite mb-20"
+            className="flex flex-col items-center mx-2 lg:mx-10 containwhite dark:contain-darkgrey mb-20"
             data-aos="fade-down"
             data-aos-duration="3000"
           >
-            <div className="containblueblue py-2 px-20 lg:w-full text-center lg:grid lg:justify-items-center">
-              <h1 className="uppercase py-1 px-10 containwhite lg:py-1 lg:w-1/2">
+            <div className="containblueblue dark:contain-test py-2 px-20 lg:w-full text-center lg:grid lg:justify-items-center">
+              <h1 className="uppercase py-1 px-10 contain-darkgrey lg:py-1 lg:w-1/2">
                 description
               </h1>
             </div>
@@ -47,11 +47,11 @@ const Introduction = () => {
             </div>
           </div>
           <div
-            className="  flex flex-col items-center my-20 mx-2   containwhite "
+            className="  flex flex-col items-center my-20 mx-2   containwhite dark:contain-darkgrey "
             data-aos="zoom-out"
             data-aos-duration="6000"
           >
-            <div className="containblueblue py-2 px-20 lg:w-full text-center lg:grid lg:justify-items-center">
+            <div className="containblueblue dark:contain-test py-2 px-20 lg:w-full text-center lg:grid lg:justify-items-center">
               <h1 className="uppercase py-1 px-10 containwhite lg:py-1 lg:w-1/2">
                 nos qualités
               </h1>
@@ -70,12 +70,12 @@ const Introduction = () => {
             </div>
           </div>
           <div
-            className="lg:my-20 mx-2 lg:mx-10 mb-2 containwhite "
+            className="lg:my-20 mx-2 lg:mx-10 mb-2 containwhite dark:contain-darkgrey "
             data-aos="fade-up"
             data-aos-duration="3000"
           >
-            <div className=" containblueblue mb-5 py-3 px-20 lg:w-full lg:grid lg:justify-items-center">
-              <h1 className="flex flex-col items-center text-center uppercase containwhite px-5 lg:py-1 lg:w-1/2">
+            <div className=" containblueblue contain-test mb-5 py-3 px-20 lg:w-full lg:grid lg:justify-items-center">
+              <h1 className="flex flex-col items-center text-center uppercase containwhite dark:contain-darkgrey px-5 lg:py-1 lg:w-1/2">
                 nos expertises
               </h1>
             </div>
