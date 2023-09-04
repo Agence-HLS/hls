@@ -1,26 +1,26 @@
 [
   {
     "p": "legend1",
-    "img": "/homepage1.jfif"
+    "img": "/html.png"
   },
   {
     "p": "legend2",
-    "img": "/homepage2.jpg"
+    "img": "/css.png"
   },
   {
     "p": "legend3",
-    "img": "/homepage3.jpg"
+    "img": "/js.png"
   },
   {
     "p": "legend4",
-    "img": "/homepage4.jfif"
+    "img": "/react.png"
   },
   {
     "p": "legend5",
-    "img": "/homepage5.jfif"
+    "img": "/figma.png"
   },
   {
     "p": "legend6",
-    "img": "/homepage6.jfif"
+    "img": "/canva.png"
   }
 ]

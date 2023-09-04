@@ -8,7 +8,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import Aos from "@/components/tools/aos";
+import Aos from "@/components/tools/aos/aos";
 
 const Contact = () => {
   return (
@@ -16,8 +16,8 @@ const Contact = () => {
       <HeaderMobile />
       <Navbar />
       <Aos />
-      <main className="dark:bg-black dark:containblueblue containblue dark:text-fuchsia-500 grid grid-cols-1">
-        <section className=" containblue p-5 w-full">
+      <main className="dark:bg-black contain-bg  dark:contain-darkbg dark:text-fuchsia-500 grid grid-cols-1">
+        <section className="  w-full">
           <section
             data-aos="fade-up"
             data-aos-anchor-placement="center-center"

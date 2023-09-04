@@ -3,13 +3,20 @@
 @tailwind utilities;
 
 .containwhite {
-  background: rgba(255, 255, 255, 0.4);}
+  background: rgba(255, 255, 255, 0.4);
+}
 
 .containblue {
   background: rgba(26, 152, 177, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+}
+@layer components {
+  .containblue {
+    background: rgba(26, 152, 177, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
 }
 
 .containwhite {
@@ -54,108 +61,109 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  
 }
 
-.containpurple {
-  background: rgba(144, 19, 254, 0.4);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.glassblue {
-  background: rgba(255, 255, 255, 0.4);
+.contain-darkviolet {
+  background: rgba(44, 0, 84, 0.85);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-}
-.contain-darkpurple {
-  background: rgba(129, 9, 232, 0.35);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(9px);
-  -webkit-backdrop-filter: blur(9px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.contain-darkgrey {
-  background: rgba(51, 51, 52, 0.45);
+@layer components {
+  .containblue {
+    background: rgba(26, 152, 177, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+  }
+
+  .containwhite {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .containpurple {
+    background: rgba(144, 19, 254, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .contain-darkpurple {
+    background: rgba(129, 9, 232, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .contain-darkgrey {
+    background: rgba(51, 51, 52, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .containblueblue {
+    background: rgba(15, 16, 226, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+}
+
+.contain-darkviolet {
+  background: rgba(74, 7, 136, 0.85);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.containblueblue {background: rgba( 15, 16, 226, 0.4 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );}
-@layer components{
 
-    .containblue {background: rgba( 26, 152, 177, 0.5 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 20px );
-        -webkit-backdrop-filter: blur( 20px );
-    border-radius: 10px;}
-    
-.containwhite {background: rgba( 255, 255, 255, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );}
-    
-    .containpurple {background: rgba( 144, 19, 254, 0.4 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4px );
-        -webkit-backdrop-filter: blur( 4px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );}
+.contain-bg {
+  background: #07b246;
+  background: -webkit-linear-gradient(
+    147deg,
+    #07b246 0%,
+    #0eb2b4 50%,
+    #0508f2 100%
+  );
+  background: linear-gradient(147deg, #07b246 0%, #0eb2b4 50%, #0508f2 100%);
+}
 
-.contain-darkpurple {background: rgba( 129, 9, 232, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 9px );
-    -webkit-backdrop-filter: blur( 9px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );}
+.bg-containfooter {
+  background: #6800ca;
+  background: -webkit-linear-gradient(
+    149deg,
+    #6800ca 0%,
+    rgba(8, 7, 7, 0.84) 50%,
+    #8649c7 100%
+  );
+  background: linear-gradient(
+    149deg,
+    #6800ca 0%,
+    rgba(8, 7, 7, 0.84) 50%,
+    #8649c7 100%
+  );
+}
 
-.contain-darkgrey {background: rgba( 51, 51, 52, 0.45 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );}
-
-    .containblueblue {background: rgba( 15, 16, 226, 0.4 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4px );
-        -webkit-backdrop-filter: blur( 4px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );}
-    }
-
-
-    .contain-darkviolet {background: rgba( 74, 7, 136, 0.85 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 6.5px );
-        -webkit-backdrop-filter: blur( 6.5px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );}
-
-        .contain-bg {background: #07b246;
-            background: -webkit-linear-gradient(147deg, #07b246 0%, #0eb2b4 50%, #0508f2 100%);
-            background: linear-gradient(147deg, #07b246 0%, #0eb2b4 50%, #0508f2 100%);}
-
-    .bg-containfooter {background: #6800ca;
-        background: -webkit-linear-gradient(149deg, #6800ca 0%, rgba(8, 7, 7, 0.84) 50%, #8649c7 100%);
-        background: linear-gradient(149deg, #6800ca 0%, rgba(8, 7, 7, 0.84) 50%, #8649c7 100%);}
-
-        .bg-containblue {background: #47b3ff;
-            background: -webkit-linear-gradient(170deg, #47b3ff 0%, #091188 100%);
-            background: linear-gradient(170deg, #47b3ff 0%, #091188 100%); }
+.bg-containblue {
+  background: #47b3ff;
+  background: -webkit-linear-gradient(170deg, #47b3ff 0%, #091188 100%);
+  background: linear-gradient(170deg, #47b3ff 0%, #091188 100%);
+}

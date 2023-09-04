@@ -8,16 +8,14 @@ const TextAnimate = () => {
     <div className="">
       <TypeAnimation
         sequence={[
-          "Lorem ipsum dolor sit, amet",
+          "Bienvenue sur DEEP 404 notre projet",
           100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+          "Bienvenue sur DEEP 404 notre projet agence web consus par une équipe ",
           100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet consequuntur vel est",
+          "Bienvenue sur DEEP 404 notre projet agence web consus par une équipe trois jeunes en pleine formation",
           100,
-          
-          
         ]}
-        style={{ }}
+        style={{}}
         repeat={Infinity}
       />
     </div>

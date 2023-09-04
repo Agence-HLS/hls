@@ -8,14 +8,16 @@ import Home from "./home";
 
 export default function () {
   return (
-  
-
     <>
       <HeaderD />
       <HeaderMobile />
       <Home />
       <Footer />
       <Image />
+      
+
+
+
     </>
   );
 }

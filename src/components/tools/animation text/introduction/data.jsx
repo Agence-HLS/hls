@@ -8,24 +8,16 @@ const TextAnimate = () => {
     <div className="">
       <TypeAnimation
         sequence={[
-          "Lorem ipsum dolor sit, amet",
+          "Deep 404 accompagne des entreprises de toutes tailles,",
           100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+          "Deep 404 accompagne des entreprises de toutes tailles, de la start-up au grand groupe international, ",
           100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet consequuntur vel est",
+          "Deep 404 accompagne des entreprises de toutes tailles, de la start-up au grand groupe international, dans la mise en place de la création de leur identité visuelle, ",
           100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet consequuntur vel est similique quia animi rem ratione",
-          100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet consequuntur vel est similique quia animi rem ratione cum praesentium? Doloremque",
-          100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet consequuntur vel est similique quia animi rem ratione cum praesentium? Doloremque corrupti neque veniam! Voluptates",
-          100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet consequuntur vel est similique quia animi rem ratione cum praesentium? Doloremque corrupti neque veniam! Voluptates repudiandae repellendus odio",
-          100,
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet consequuntur vel est similique quia animi rem ratione cum praesentium? Doloremque corrupti neque veniam! Voluptates repudiandae repellendus odio reiciendis ad!",
+          "Deep 404 accompagne des entreprises de toutes tailles, de la start-up au grand groupe international, dans la mise en place de la création de leur identité visuelle, la création d'une base de données jusqu’aux supports de communication nécessaires : print & web.",
           100,
         ]}
-        style={{ }}
+        style={{}}
         repeat={Infinity}
       />
     </div>

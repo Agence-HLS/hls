@@ -3,24 +3,24 @@
 import TextAnimate from "@/components/tools/animation text/introduction/data";
 import Intro from "@/components/tools/animation text/introduction/data2";
 import DemoCarousel from "@/app/carousel/homepage/page";
-import "aos/dist/aos.css";
+import "aos/dist/aos.css"; 
 import Animation from "@/components/tools/animation text/introduction/data3";
 import By from "@/components/tools/animation text/introduction/data4";
 
 const Introduction = () => {
   return (
     <>
-      <main className="dark:text-fuchsia-500 dark:bg-black  flex flex-col containblue ">
-        <div className=" w-full h-screen bg-[url('/deep.jpg')]  bg-no-repeat bg-cover bg-center pt-5 font-ocean outline-cyan-50">
-          <p className="text-9xl uppercase">deep 404</p>
-          <div className="grid justify-items-center py-20 px-96 m text-5xl ">
+      <main className="dark:text-fuchsia-500 dark:bg-black  contain-bg flex flex-col containblue ">
+        <div className="mt-28 w-full h-screen bg-[url('/deep.jpg')]  bg-no-repeat bg-cover bg-center pt-5 font-ocean outline-cyan-50">
+          <h1 className="text-3xl lg:text-9xl uppercase">deep 404</h1>
+          <div className= "text-xl mx-10 my-32 lg:grid lg:justify-items-center lg:py-20 lg:px-96 lg:text-5xl ">
             <Animation />
           </div>
-          <div className="grid justify-items-end mt-32 py-20 ml-24 px-96 m text-5xl ">
-            <By />
+          <div className="pl-28 text-xl lg:grid lg:justify-items-end lg:mt-32 lg:py-20 lg:ml-24 lg:px-96 lg:text-5xl ">
+            <By/>
           </div>
         </div>
-        <section className=" mt-15 mx-2 lg:mx-96">
+        <section className="my-10 mt-15 mx-2 lg:mx-96">
           <div
             className="flex flex-col items-center mx-2 lg:mx-10 containwhite mb-20"
             data-aos="fade-down"
@@ -28,7 +28,7 @@ const Introduction = () => {
           >
             <div className="containblueblue py-2 px-20 lg:w-full text-center lg:grid lg:justify-items-center">
               <h1 className="uppercase py-1 px-10 containwhite lg:py-1 lg:w-1/2">
-                titre
+                 description
               </h1>
             </div>
             <div className="grid grid-cols-1 justify-items-center  mx-5 lg:grid-cols-2 ">
@@ -53,7 +53,7 @@ const Introduction = () => {
           >
             <div className="containblueblue py-2 px-20 lg:w-full text-center lg:grid lg:justify-items-center">
               <h1 className="uppercase py-1 px-10 containwhite lg:py-1 lg:w-1/2">
-                titre
+              nos qualités
               </h1>
             </div>
             <div className="lg:grid lg:grid-cols-2">
@@ -83,6 +83,7 @@ const Introduction = () => {
               <DemoCarousel />
             </div>
           </div>
+          
         </section>
       </main>
     </>
