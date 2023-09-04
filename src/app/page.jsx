@@ -8,7 +8,7 @@ import HeaderMobile from "@/components/layouts/HeaderMobile";
 import Footer from "@/components/layouts/footermobile/footer";
 import Home from "./home";
 
-export default function () {
+export default function Root() {
   useEffect(() => {
     AOS.init({
       once: false,

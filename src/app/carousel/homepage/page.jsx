@@ -11,9 +11,9 @@ class HomeCarousel extends Component {
   render() {
     return (
       <Carousel>
-        {data.map((yenyen) => {
+        {data.map((yenyen, key) => {
           return (
-            <div>
+            <div key={key}>
               <Cardhome img={yenyen.img} />
             </div>
           );

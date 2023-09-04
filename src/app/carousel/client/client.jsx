@@ -9,9 +9,9 @@ class ClientsCarousel extends Component {
   render() {
     return (
       <Carousel>
-         {data.map((yencli) => {
+         {data.map((yencli, key) => {
             return (
-              <div className="">
+              <div className="" key={key}>
                 <Cardclient img={yencli.img} />
               </div>
             );
