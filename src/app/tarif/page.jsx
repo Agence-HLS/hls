@@ -88,7 +88,7 @@ const Entreprise = () => {
               <div className="flex justify-center">
                 <div data-aos="fade-down-right"   className="containblueblue dark:contain-darkgrey w-1/2 lg:w-1/3 p-2">
                   <h2 className=" uppercase text-center  dark:text-gray-300 ">
-                    offres d'abonnement
+                    offres d&apos;abonnement
                   </h2>
                 </div>
               </div>

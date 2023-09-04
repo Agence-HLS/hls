@@ -83,7 +83,7 @@ const Footer = () => {
                 <Image src="/white-logo.svg" width={100} height={200} alt="" />
               </div>
               <p className="text-xs text-center ">
-                Ne manquez pas l'actualité en vous inscrivant à notre newsletter
+                Ne manquez pas l&apos;actualité en vous inscrivant à notre newsletter
               </p>
 
               <form action="" className=" grid grid-cols items-center  ">
