@@ -75,9 +75,9 @@ const Entreprise = () => {
                 <p className="py-4 px-10">
                   Nous somme une agence web qui aimons le defi et vous offrir
                   nos services serai un bon defi a relever, nous somme aussi a
-                  l'écoute et pouvons vous donnez des conseils sur certains
+                  l&apos;écoute et pouvons vous donnez des conseils sur certains
                   aspect qui se réfère a notre metier de plus ont est un petit
-                  groupe donc pour la coordination c'est plutot efficace{" "}
+                  groupe donc pour la coordination c&apos;est plutot éfficace{" "}
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ const Entreprise = () => {
                   </ div>
                   <div className="flex justify-center ">
 
-                   <p>Être à l'écoute</p>
+                   <p>Être à l&apos;écoute</p>
                   </div>
                   </ol>
                 <ol className="py-5"> 

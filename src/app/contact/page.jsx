@@ -39,7 +39,7 @@ const Contact = () => {
               <div className="p-5 flex justify-center">
                 <h2 id="text-color">
                   Nous sommes ravis que vous souhaiteriez entrer en contact avec
-                  nous.N'hesitez pas a nous contacter en remplissant le
+                  nous.N&apos;hesitez pas a nous contacter en remplissant le
                   formulaire de contact
                 </h2>
               </div>
