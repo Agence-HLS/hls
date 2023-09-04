@@ -13,7 +13,7 @@ class HomeCarousel extends Component {
         {data.map((yenyen) => {
             return (
               <div>
-                <Cardhome img={yenyen.img} p={yenyen.p} />
+                <Cardhome img={yenyen.img}  />
               </div>
             );
           })}

@@ -9,11 +9,12 @@ import { faHandHoldingHand } from "@fortawesome/free-solid-svg-icons";
 import { faMoneyBill } from "@fortawesome/free-solid-svg-icons";
 import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
 import { faMoon } from "@fortawesome/free-regular-svg-icons";
-import { styles } from "./styles";
+import styles from "./styles";
 import { bubble as Menu } from "react-burger-menu";
 import DarkMode from "../../tools/darkMode";
 import { useState } from "react";
 import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
+
 const HeaderMobile = () => {
   const [showButton, setShowButton] = useState(false);
   return (
@@ -23,7 +24,7 @@ const HeaderMobile = () => {
        grid grid-cols-3 dark:bg-gray-900"
       >
         <div>
-          <Menu className="dark: text-pink-400" styles={styles}>
+          <Menu styles={styles}>
             <div className="ml-2">
               <Image
                 src="/white-logo.svg"
@@ -39,7 +40,7 @@ const HeaderMobile = () => {
                 alt="Logo"
                 className="dark:flex hidden"
               />
-            </div >
+            </div>
             <Link href="/" className="pt-6">
               <FontAwesomeIcon icon={faHouseUser} className="py-1 pr-2" />
               ACCUEIL
@@ -88,7 +89,7 @@ const HeaderMobile = () => {
             <CgToggleSquareOff
               onClick={() => {
                 DarkMode();
-                
+
                 setShowButton(false);
               }}
             />
@@ -96,7 +97,7 @@ const HeaderMobile = () => {
             <CgToggleSquare
               onClick={() => {
                 DarkMode();
-              
+
                 setShowButton(true);
               }}
             />

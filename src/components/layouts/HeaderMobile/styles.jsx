@@ -7,7 +7,7 @@ let styles = {
     top: "30px",
   },
   bmBurgerBars: {
-    background: "#000000",
+    background: "black",
   },
   bmBurgerBarsHover: {
     background: "#000000",

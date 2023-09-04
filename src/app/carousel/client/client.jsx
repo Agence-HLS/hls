@@ -12,7 +12,7 @@ class ClientsCarousel extends Component {
          {data.map((yencli) => {
             return (
               <div className="">
-                <Cardclient img={yencli.img} p={yencli.p}/>
+                <Cardclient img={yencli.img} />
               </div>
             );
           })}
