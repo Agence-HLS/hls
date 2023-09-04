@@ -3,11 +3,11 @@ let styles = {
     position: "fixed",
     width: "35px",
     height: "25px",
-    left: "20px",
-    top: "30px",
+    left: "30px",
+    top: "40px",
   },
   bmBurgerBars: {
-    background: "black",
+    background: "#99ecef",
   },
   bmBurgerBarsHover: {
     background: "#000000",

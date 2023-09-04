@@ -11,7 +11,7 @@ import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
 import { faMoon } from "@fortawesome/free-regular-svg-icons";
 import styles from "./styles";
 import { bubble as Menu } from "react-burger-menu";
-import DarkMode from "../../tools/darkMode";
+import DarkMode from "@/components/tools/DarkMode";
 import { useState } from "react";
 import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
 

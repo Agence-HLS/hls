@@ -1,9 +1,10 @@
 "use client"
 import Link from "next/link";
 import Image from "next/image";
-import DarkMode from "@/components/tools/darkMode";
+import DarkMode from "@/components/tools/DarkMode";
 import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
 import { useState } from "react";
+
 const Navbar = () => {
   const [showButton, setShowButton] = useState(false);
   return (
