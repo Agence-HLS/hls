@@ -1,26 +1,26 @@
 [
   {
-    "p": "legend1",
+    "p": "",
     "img": "/html.png"
   },
   {
-    "p": "legend2",
+    "p": "",
     "img": "/css.png"
   },
   {
-    "p": "legend3",
+    "p": "",
     "img": "/js.png"
   },
   {
-    "p": "legend4",
+    "p": "",
     "img": "/react.png"
   },
   {
-    "p": "legend5",
+    "p": "",
     "img": "/figma.png"
   },
   {
-    "p": "legend6",
+    "p": "",
     "img": "/canva.png"
   }
 ]

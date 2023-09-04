@@ -11,7 +11,7 @@ const Introduction = () => {
   return (
     <>
       <main className="dark:text-fuchsia-500 dark:bg-black  contain-bg flex flex-col containblue ">
-        <div className="mt-28 w-full h-screen bg-[url('/deep.jpg')]  bg-no-repeat bg-cover bg-center pt-5 font-ocean outline-cyan-50">
+        <div className="mt-28 lg:mt-0 w-full h-screen bg-[url('/deep.jpg')]  bg-no-repeat bg-cover bg-center pt-5 font-ocean outline-cyan-50">
           <h1 className="text-3xl lg:text-9xl uppercase">deep 404</h1>
           <div className= "text-xl mx-10 my-32 lg:grid lg:justify-items-center lg:py-20 lg:px-96 lg:text-5xl ">
             <Animation />
