@@ -11,7 +11,7 @@ const client = () => {
       <Navbar />
       <HeaderMobile />
       <Aos />
-      <section className="containblue grid-cols-1 py-24 p-6   ">
+      <section className="containblue text-[#3749a3a6] grid-cols-1 py-24 p-6   ">
         {" "}
         <div className="containblue ">
           <div

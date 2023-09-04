@@ -16,17 +16,17 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className=" dark:bg-containfooter bg-containblue containwhite p-5 text-black-300  ">
-        <section className="contain-darkgrey my-10 py-7 text-purple-100">
+      <footer className=" dark:bg-containfooter contain-bg containwhite p-5 text-black-300  ">
+        <section className="contain-darkgrey my-10 py-7 text-[#99ecef]">
           <div className=" text-xs p-0.5 ">
             <div
               data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
-              className="grid grid-cols-3  py-5 my-5"
+              className="grid grid-cols-3 py-5 my-5"
             >
               <div className="text-center items-center ">
                 <FontAwesomeIcon
-                  className=" text-white"
+                  className="text-blue-500  "
                   icon={faLocationDot}
                   width={20}
                   height={"auto"}
@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
               <div className="items-center text-center">
                 <FontAwesomeIcon
-                  className=" text-white"
+                  className=" text-blue-500 "
                   icon={faEnvelope}
                   width={20}
                   height={"auto"}
@@ -42,14 +42,14 @@ const Footer = () => {
               </div>
               <div className="items-center text-center">
                 <FontAwesomeIcon
-                  className="text-white"
+                  className=" text-blue-500 "
                   icon={faPhone}
                   width={20}
                   height={"auto"}
                 />
               </div>
 
-              <div className="flex justify-center text-purple-100 ">
+              <div className="flex justify-center text-[#99ecef] ">
                 <a className="text-center " href="">
                   30 Bd du Chevalier Bayard
                   <br />
@@ -76,7 +76,7 @@ const Footer = () => {
             className=" justify-center"
           >
             <div className="flex flex-col items-center ">
-              <h1 className="uppercase containblue w-36 text-center font-bold">
+              <h1 className="uppercase containblueblue w-36 text-center font-bold">
                 Suivez nous !
               </h1>
               <div className=" ">
@@ -94,9 +94,9 @@ const Footer = () => {
                   <input
                     type="email"
                     placeholder="Adresse e-mail..."
-                    className="border rounded-full border-solid  "
+                    className="border rounded-full text-blue-500  border-solid  "
                   />
-                  <button className="  rounded-full  containblue w-20 ">
+                  <button className="  rounded-full  containblueblue w-20 ">
                     Envoyer
                   </button>
                 </div>

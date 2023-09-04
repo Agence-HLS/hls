@@ -82,7 +82,12 @@
     .bg-containfooter {background: #6800ca;
       background: -webkit-linear-gradient(149deg, #6800ca 0%, rgba(8, 7, 7, 0.84) 50%, #8649c7 100%);
       background: linear-gradient(149deg, #6800ca 0%, rgba(8, 7, 7, 0.84) 50%, #8649c7 100%);}
+       
+      .containbluelight {background: #075bbc;
+        background: -webkit-linear-gradient(142deg, #075bbc 0%, rgba(24, 206, 242, 0.73) 100%);
+        background: linear-gradient(142deg, #075bbc 0%, rgba(24, 206, 242, 0.73) 100%);}
     }
+    
   
         /* .glass {
           
