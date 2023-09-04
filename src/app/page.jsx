@@ -1,10 +1,23 @@
-import Image from 'next/image'
+"use client";
 
-export default function Home() {
+import Image from "next/image";
+import HeaderD from "@/components/layouts/HeaderD";
+import HeaderMobile from "@/components/layouts/HeaderMobile";
+import Footer from "@/components/layouts/footermobile/footer";
+import Home from "./home";
+
+export default function () {
   return (
-    <main >
-    <h1>hello les g version1</h1>
-     
-    </main>
-  )
+    <>
+      <HeaderD />
+      <HeaderMobile />
+      <Home />
+      <Footer />
+      <Image />
+      
+
+
+
+    </>
+  );
 }
